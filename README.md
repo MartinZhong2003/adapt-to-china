@@ -4,6 +4,26 @@ An English-first practical life platform for foreigners in China, built and iter
 
 **Live site:** https://adapttochina.pages.dev
 
+## Product preview
+
+### Homepage
+
+A search-first homepage built around common newcomer needs such as payments, healthcare, transportation, renting, and special food.
+
+<img src="assets/readme/homepage.png" width="100%" alt="Adapt to China homepage">
+
+### International reach
+
+The project reached users across multiple countries through English content and community channels.
+
+<img src="assets/readme/audience-map.png" width="100%" alt="Adapt to China international audience map">
+
+### Practical guides
+
+The site turns fragmented local information into structured, visual guides for international users.
+
+<img src="assets/readme/rent-guide.png" width="100%" alt="Adapt to China renting guide">
+
 ## Why I built it
 
 Foreigners living in or moving to China often face fragmented information, language barriers, and local services that are difficult to verify in English. Adapt to China started as a practical attempt to make common tasks easier to navigate.
