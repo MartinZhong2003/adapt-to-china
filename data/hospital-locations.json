@@ -1,0 +1,1486 @@
+{
+  "sourceDocument": "China Hospital Location Revalidation Report.docx + Hospital Finder Expansion Research + 3 August 2026 Shanghai verification review",
+  "reviewDate": "2026-08-03",
+  "decisionModel": [
+    "exact",
+    "campus",
+    "search"
+  ],
+  "records": [
+    {
+      "id": "beijing-united-family-hospital",
+      "englishName": "Beijing United Family Hospital",
+      "chineseName": "北京和睦家医院",
+      "city": "Beijing",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "北京和睦家医院",
+        "latitude": 39.9723,
+        "longitude": 116.4822,
+        "coordinateSystem": "wgs84",
+        "amapPlaceUrl": null,
+        "amapPoiId": null,
+        "note": "Source coordinates are retained from the original research record and should be confirmed before travel."
+      }
+    },
+    {
+      "id": "nanjing-drum-tower-hospital",
+      "englishName": "Nanjing Drum Tower Hospital",
+      "chineseName": "南京鼓楼医院",
+      "city": "Nanjing",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "南京鼓楼医院",
+        "latitude": 32.0545,
+        "longitude": 118.7831,
+        "coordinateSystem": "wgs84",
+        "amapPlaceUrl": null,
+        "amapPoiId": null,
+        "note": "Source coordinates are retained from the original research record and should be confirmed before travel."
+      }
+    },
+    {
+      "id": "shanghai-jiahui-international-hospital",
+      "englishName": "Shanghai Jiahui International Hospital",
+      "chineseName": "上海嘉会国际医院",
+      "city": "Shanghai",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "上海嘉会国际医院",
+        "latitude": 31.1702,
+        "longitude": 121.3986,
+        "coordinateSystem": "wgs84",
+        "amapPlaceUrl": null,
+        "amapPoiId": null,
+        "note": "Source coordinates are retained from the original research record and should be confirmed before travel."
+      }
+    },
+    {
+      "id": "sir-run-run-shaw-hospital",
+      "englishName": "Sir Run Run Shaw Hospital, Zhejiang University School of Medicine",
+      "chineseName": "浙江大学医学院附属邵逸夫医院",
+      "city": "Hangzhou",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "浙江大学医学院附属邵逸夫医院",
+        "latitude": 30.2591,
+        "longitude": 120.1976,
+        "coordinateSystem": "wgs84",
+        "amapPlaceUrl": null,
+        "amapPoiId": null,
+        "note": "Source coordinates are retained from the original research record and should be confirmed before travel."
+      }
+    },
+    {
+      "id": "first-affiliated-hospital-soochow-university",
+      "englishName": "The First Affiliated Hospital of Soochow University",
+      "chineseName": "苏州大学附属第一医院",
+      "city": "Suzhou",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "苏州大学附属第一医院总院",
+        "latitude": 31.344324,
+        "longitude": 120.606639,
+        "coordinateSystem": "gaode",
+        "amapPlaceUrl": "https://www.amap.com/place/B0FFGBKK9X",
+        "amapPoiId": "B0FFGBKK9X",
+        "note": "The Pinghai Road General Hospital is the current outpatient default. The Shizijie campus should not be used as the default because outpatient and emergency services there were suspended in January 2026."
+      }
+    },
+    {
+      "id": "university-of-hong-kong-shenzhen-hospital",
+      "englishName": "The University of Hong Kong - Shenzhen Hospital",
+      "chineseName": "香港大学深圳医院",
+      "city": "Shenzhen",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "香港大学深圳医院",
+        "latitude": 22.529,
+        "longitude": 113.9922,
+        "coordinateSystem": "wgs84",
+        "amapPlaceUrl": null,
+        "amapPoiId": null,
+        "note": "Source coordinates are retained from the original research record and should be confirmed before travel."
+      }
+    },
+    {
+      "id": "west-china-hospital-sichuan-university",
+      "englishName": "West China Hospital, Sichuan University",
+      "chineseName": "四川大学华西医院",
+      "city": "Chengdu",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "四川大学华西医院",
+        "latitude": 30.6421,
+        "longitude": 104.0628,
+        "coordinateSystem": "wgs84",
+        "amapPlaceUrl": null,
+        "amapPoiId": null,
+        "note": "Source coordinates are retained from the original research record and should be confirmed before travel."
+      }
+    },
+    {
+      "id": "huashan-hospital-fudan-university",
+      "englishName": "Huashan Hospital Affiliated to Fudan University",
+      "chineseName": "复旦大学附属华山医院",
+      "city": "Shanghai",
+      "navigation": {
+        "mode": "campus",
+        "buttonLabel": "Choose a campus",
+        "note": "Huashan operates several active campuses. Choose the campus shown in your appointment. The Pudong Campus is identified in the revalidation report as the international-outpatient location.",
+        "warning": "The north/Baoshan listing is not shown as an exact destination because the official hospital address and the current AMap listing conflict.",
+        "campuses": [
+          {
+            "name": "Main Campus",
+            "chineseName": "总院",
+            "addressZh": "上海市静安区乌鲁木齐中路12号",
+            "mode": "exact",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "latitude": 31.216111,
+            "longitude": 121.442932,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://www.amap.com/place/B00155KT4W",
+            "amapPoiId": "B00155KT4W"
+          },
+          {
+            "name": "Pudong Campus",
+            "chineseName": "浦东院区",
+            "addressZh": "上海市浦东新区红枫路525号",
+            "mode": "exact",
+            "recommended": true,
+            "recommendationLabel": "International outpatient services listed",
+            "status": "active",
+            "latitude": 31.240072,
+            "longitude": 121.596174,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://ditu.amap.com/place/B001556X1G",
+            "amapPoiId": "B001556X1G"
+          },
+          {
+            "name": "Hongqiao Campus",
+            "chineseName": "虹桥院区",
+            "addressZh": "上海市闵行区金光路958号",
+            "mode": "exact",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "latitude": 31.20849,
+            "longitude": 121.274051,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://www.amap.com/place/B0FFI9K7Z8",
+            "amapPoiId": "B0FFI9K7Z8"
+          },
+          {
+            "name": "Jiangsu Road Branch",
+            "chineseName": "江苏路分部",
+            "addressZh": "上海市长宁区江苏路796号",
+            "mode": "exact",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "latitude": 31.212084,
+            "longitude": 121.433136,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://www.amap.com/place/B00154DQPK",
+            "amapPoiId": "B00154DQPK"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jiahui-health-hangzhou-clinic",
+      "englishName": "Jiahui Health Hangzhou Clinic",
+      "chineseName": "嘉会医疗（杭州）",
+      "city": "Hangzhou",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "嘉会医疗（杭州）",
+        "city": "杭州",
+        "note": "The official clinic address is verified, but a robust clinic-level AMap POI was not retrieved. AMap search is safer than a fixed building pin.",
+        "fallbackPlaceUrl": "https://www.amap.com/place/B023B14QHX",
+        "fallbackPlaceName": "莲花商务中心"
+      }
+    },
+    {
+      "id": "jiahui-health-suzhou-clinic",
+      "englishName": "Jiahui Health Suzhou Clinic",
+      "chineseName": "嘉会医疗（苏州）",
+      "city": "Suzhou",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "嘉会医疗（苏州）",
+        "city": "苏州",
+        "note": "The official clinic address is verified, but only a mall-level AMap match was robustly available. AMap search is safer than a fixed mall pin.",
+        "fallbackPlaceUrl": "https://www.amap.com/place/B0200178XV",
+        "fallbackPlaceName": "苏州久光百货"
+      }
+    },
+    {
+      "id": "peking-union-medical-college-hospital",
+      "englishName": "Peking Union Medical College Hospital",
+      "chineseName": "北京协和医院",
+      "city": "Beijing",
+      "navigation": {
+        "mode": "campus",
+        "buttonLabel": "Choose a campus",
+        "note": "Choose the campus shown in your appointment. Dongdan is the recommended campus for international outpatient users because the International Medical Department is located there.",
+        "campuses": [
+          {
+            "name": "Dongdan Campus",
+            "chineseName": "东单院区",
+            "addressZh": "北京市东城区帅府园1号",
+            "mode": "exact",
+            "recommended": true,
+            "recommendationLabel": "International Medical Department",
+            "status": "active",
+            "latitude": 39.913346,
+            "longitude": 116.416644,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://www.amap.com/place/B0FFG2TVK4",
+            "amapPoiId": "B0FFG2TVK4"
+          },
+          {
+            "name": "Xidan Campus",
+            "chineseName": "西单院区",
+            "addressZh": "北京市西城区大木仓胡同41号",
+            "mode": "exact",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "latitude": 39.912623,
+            "longitude": 116.367298,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://www.amap.com/place/B000A843P7",
+            "amapPoiId": "B000A843P7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "taikang-xianlin-drum-tower-hospital",
+      "englishName": "Taikang Xianlin Drum Tower Hospital",
+      "chineseName": "泰康仙林鼓楼医院",
+      "city": "Nanjing",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "泰康仙林鼓楼医院",
+        "city": "南京",
+        "note": "The official address is clear, but an exact hospital-level AMap POI was not robustly retrieved. The button opens an AMap keyword search.",
+        "fallbackPlaceUrl": null,
+        "fallbackPlaceName": null
+      }
+    },
+    {
+      "id": "first-affiliated-hospital-sun-yat-sen-university",
+      "englishName": "The First Affiliated Hospital, Sun Yat-sen University",
+      "chineseName": "中山大学附属第一医院",
+      "city": "Guangzhou",
+      "navigation": {
+        "mode": "campus",
+        "buttonLabel": "Choose a campus",
+        "note": "This hospital operates several patient-facing campuses. Select the campus shown in your booking or department information.",
+        "campuses": [
+          {
+            "name": "Main Campus",
+            "chineseName": "院本部",
+            "addressZh": "广州市越秀区中山二路58号",
+            "mode": "exact",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "latitude": 23.126383,
+            "longitude": 113.291007,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://www.amap.com/place/B00140226E",
+            "amapPoiId": "B00140226E"
+          },
+          {
+            "name": "Dongshan Campus / Gynecology and Reproductive Center",
+            "chineseName": "东山院区或妇科生殖医学中心",
+            "addressZh": "广州市越秀区中山二路1号",
+            "mode": "exact",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "latitude": 23.123898,
+            "longitude": 113.293543,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://www.amap.com/place/B0FFJOPSCL",
+            "amapPoiId": "B0FFJOPSCL"
+          },
+          {
+            "name": "East / Huangpu Campus",
+            "chineseName": "东院或黄埔院区",
+            "addressZh": "广州市黄埔区黄埔东路183号",
+            "mode": "search",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "searchKeyword": "中山大学附属第一医院东院",
+            "city": "广州"
+          },
+          {
+            "name": "Nansha Campus",
+            "chineseName": "南沙院区",
+            "addressZh": "广州市南沙区横沥镇明珠湾起步区横沥岛横顺二路8号",
+            "mode": "search",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "searchKeyword": "中山大学附属第一（南沙）医院",
+            "city": "广州",
+            "fallbackPlaceUrl": "https://www.amap.com/place/B0J0KC98NN",
+            "fallbackPlaceName": "中山大学附属第一(南沙)医院停车场"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tongji-hospital-wuhan",
+      "englishName": "Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+      "chineseName": "华中科技大学同济医学院附属同济医院",
+      "city": "Wuhan",
+      "navigation": {
+        "mode": "campus",
+        "buttonLabel": "Choose a campus",
+        "note": "Tongji Hospital has several active campuses. Choose the campus on your appointment confirmation.",
+        "campuses": [
+          {
+            "name": "Hankou Main Campus",
+            "chineseName": "汉口院区",
+            "addressZh": "武汉市硚口区解放大道1095号",
+            "mode": "exact",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "latitude": 30.579587,
+            "longitude": 114.259951,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://www.amap.com/place/B001B07JBE",
+            "amapPoiId": "B001B07JBE"
+          },
+          {
+            "name": "Optics Valley Campus",
+            "chineseName": "光谷院区",
+            "addressZh": "武汉市东湖新技术开发区高新大道501号",
+            "mode": "exact",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "latitude": 30.487581,
+            "longitude": 114.463594,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://ditu.amap.com/place/B0FFG6KQNE",
+            "amapPoiId": "B0FFG6KQNE"
+          },
+          {
+            "name": "Sino-French New City Campus",
+            "chineseName": "中法新城院区",
+            "addressZh": "武汉市蔡甸区新天大道288号",
+            "mode": "search",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "searchKeyword": "同济医院中法新城院区",
+            "city": "武汉"
+          },
+          {
+            "name": "Junshan Hospital",
+            "chineseName": "同济军山医院或军山院区",
+            "addressZh": "武汉市经开区车谷大道66号",
+            "mode": "exact",
+            "recommended": false,
+            "recommendationLabel": "",
+            "status": "active",
+            "latitude": 30.402954,
+            "longitude": 114.133554,
+            "coordinateSystem": "gaode",
+            "amapPlaceUrl": "https://ditu.amap.com/place/B0J1XAQ7KS",
+            "amapPoiId": "B0J1XAQ7KS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xian-international-medical-center-hospital",
+      "englishName": "Xi’an International Medical Center Hospital",
+      "chineseName": "西安国际医学中心医院",
+      "city": "Xi’an",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "西安国际医学中心医院",
+        "latitude": 34.142076,
+        "longitude": 108.839657,
+        "coordinateSystem": "gaode",
+        "amapPlaceUrl": "https://www.amap.com/place/B0FFGFOGSF",
+        "amapPoiId": "B0FFGFOGSF",
+        "note": "Single-site exact AMap POI validated in the July 2026 location revalidation report."
+      }
+    },
+    {
+      "id": "beijing-tsinghua-changgung-hospital",
+      "englishName": "Beijing Tsinghua Changgung Hospital",
+      "chineseName": "北京清华长庚医院",
+      "city": "Beijing",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "北京清华长庚医院",
+        "city": "北京",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "raffles-hospital-beijing",
+      "englishName": "Raffles Hospital Beijing",
+      "chineseName": "北京莱佛士医院",
+      "city": "Beijing",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "北京莱佛士医院",
+        "city": "北京",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "beijing-childrens-hospital",
+      "englishName": "Beijing Children’s Hospital",
+      "chineseName": "首都医科大学附属北京儿童医院",
+      "city": "Beijing",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "首都医科大学附属北京儿童医院",
+        "city": "北京",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "shanghai-united-family-hospital",
+      "englishName": "Shanghai United Family Hospital",
+      "chineseName": "上海和睦家医院",
+      "city": "Shanghai",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "上海和睦家医院",
+        "city": "上海",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "shanghai-yida-hospital-international-medical-center",
+      "englishName": "Shanghai Yida Hospital International Medical Center",
+      "chineseName": "上海医大医院国际医疗中心",
+      "city": "Shanghai",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "上海医大医院国际医疗中心",
+        "city": "上海",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "shanghai-fourth-peoples-hospital-jinguang-international-medical-department",
+      "englishName": "Shanghai Fourth People’s Hospital Jin Guang International Medical Department",
+      "chineseName": "上海市第四人民医院金光国际医疗部",
+      "city": "Shanghai",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "上海市第四人民医院金光国际医疗部",
+        "city": "上海",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "guangdong-provincial-peoples-hospital-xiehe-advanced-medical-center",
+      "englishName": "Guangdong Provincial People’s Hospital Xiehe Advanced Medical Center",
+      "chineseName": "广东省人民医院协和高级医疗中心",
+      "city": "Guangzhou",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "广东省人民医院协和高级医疗中心",
+        "city": "广州",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "guangzhou-united-family-hospital",
+      "englishName": "Guangzhou United Family Hospital",
+      "chineseName": "广州和睦家医院",
+      "city": "Guangzhou",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "广州和睦家医院",
+        "city": "广州",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "guangzhou-women-and-childrens-medical-center",
+      "englishName": "Guangzhou Women and Children’s Medical Center",
+      "chineseName": "广州市妇女儿童医疗中心",
+      "city": "Guangzhou",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "广州市妇女儿童医疗中心",
+        "city": "广州",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "shenzhen-peoples-hospital-international-medical-department",
+      "englishName": "Shenzhen People’s Hospital International Medical Department",
+      "chineseName": "深圳市人民医院国际医疗部",
+      "city": "Shenzhen",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "深圳市人民医院国际医疗部",
+        "city": "深圳",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "shenzhen-new-frontier-united-family-hospital",
+      "englishName": "Shenzhen New Frontier United Family Hospital",
+      "chineseName": "深圳新风和睦家医院",
+      "city": "Shenzhen",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "深圳新风和睦家医院",
+        "latitude": 22.520622,
+        "longitude": 114.044796,
+        "coordinateSystem": "gaode",
+        "amapPoiId": "B0HRKZ8CUH",
+        "amapPlaceUrl": "https://www.amap.com/place/B0HRKZ8CUH",
+        "note": "Exact AMap hospital-campus POI captured in the July 2026 expansion research. Confirm the entrance before travel."
+      }
+    },
+    {
+      "id": "zhejiang-hospital",
+      "englishName": "Zhejiang Hospital",
+      "chineseName": "浙江医院",
+      "city": "Hangzhou",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "浙江医院",
+        "city": "杭州",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "childrens-hospital-zhejiang-university-school-of-medicine",
+      "englishName": "Children’s Hospital, Zhejiang University School of Medicine",
+      "chineseName": "浙江大学医学院附属儿童医院",
+      "city": "Hangzhou",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "浙江大学医学院附属儿童医院",
+        "city": "杭州",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "global-doctor-chengdu-international-medical-center",
+      "englishName": "Global Doctor Chengdu International Medical Center",
+      "chineseName": "环球医生成都国际医疗中心",
+      "city": "Chengdu",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "环球医生成都国际医疗中心",
+        "city": "成都",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "sichuan-provincial-peoples-hospital",
+      "englishName": "Sichuan Provincial People’s Hospital",
+      "chineseName": "四川省人民医院",
+      "city": "Chengdu",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "四川省人民医院",
+        "city": "成都",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "chengdu-aidi-eye-hospital",
+      "englishName": "Chengdu Aidi Eye Hospital",
+      "chineseName": "成都爱迪眼科医院",
+      "city": "Chengdu",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "成都爱迪眼科医院",
+        "city": "成都",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "nanjing-international-hospital-nanjing-university-medical-school",
+      "englishName": "Nanjing International Hospital, Nanjing University Medical School",
+      "chineseName": "南京大学医学院附属南京国际医院",
+      "city": "Nanjing",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "南京大学医学院附属南京国际医院",
+        "city": "南京",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "nanjing-benq-medical-center",
+      "englishName": "Nanjing BenQ Medical Center",
+      "chineseName": "南京明基医院",
+      "city": "Nanjing",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "南京明基医院",
+        "city": "南京",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "childrens-hospital-soochow-university",
+      "englishName": "Children’s Hospital of Soochow University",
+      "chineseName": "苏州大学附属儿童医院",
+      "city": "Suzhou",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Open in AMap",
+        "destinationName": "苏州大学附属儿童医院总院",
+        "latitude": 31.310494,
+        "longitude": 120.758713,
+        "coordinateSystem": "gaode",
+        "amapPoiId": "B020017SI1",
+        "amapPlaceUrl": "https://www.amap.com/place/B020017SI1",
+        "note": "Exact AMap hospital-campus POI captured in the July 2026 expansion research. Confirm the entrance before travel."
+      }
+    },
+    {
+      "id": "suzhou-boe-hospital",
+      "englishName": "Suzhou BOE Hospital",
+      "chineseName": "苏州京东方医院",
+      "city": "Suzhou",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "苏州京东方医院",
+        "city": "苏州",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "wuhan-union-hospital-international-medical-department",
+      "englishName": "Wuhan Union Hospital International Medical Department",
+      "chineseName": "武汉协和医院国际医疗部",
+      "city": "Wuhan",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "武汉协和医院国际医疗部",
+        "city": "武汉",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "wuhan-asia-heart-hospital",
+      "englishName": "Wuhan Asia Heart Hospital",
+      "chineseName": "武汉亚洲心脏病医院",
+      "city": "Wuhan",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "武汉亚洲心脏病医院",
+        "city": "武汉",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "first-affiliated-hospital-xian-jiaotong-university-international-department",
+      "englishName": "First Affiliated Hospital of Xi’an Jiaotong University International Diagnosis and Treatment Department",
+      "chineseName": "西安交通大学第一附属医院国际诊疗部暨特需门诊",
+      "city": "Xi’an",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "西安交通大学第一附属医院国际诊疗部暨特需门诊",
+        "city": "西安",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "global-doctor-xian-medical-center",
+      "englishName": "Global Doctor Xi’an Medical Center",
+      "chineseName": "环球医生西安医疗中心",
+      "city": "Xi’an",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Search in AMap",
+        "searchKeyword": "环球医生西安医疗中心",
+        "city": "西安",
+        "note": "Use the Chinese name and confirm the correct campus, building, and entrance before travelling."
+      }
+    },
+    {
+      "id": "beijing-oasis-international-hospital",
+      "englishName": "OASIS International Hospital",
+      "chineseName": "北京明德医院",
+      "city": "Beijing",
+      "campusNameEn": "Jiuxianqiao North Road Hospital",
+      "campusNameZh": "酒仙桥北路院址",
+      "fullAddressZh": "北京市朝阳区酒仙桥北路9号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "北京明德医院",
+        "addressZh": "北京市朝阳区酒仙桥北路9号",
+        "addressEnglish": "No. 9 Jiuxianqiao North Road, Chaoyang District, Beijing",
+        "searchKeyword": "北京明德医院 北京市朝阳区酒仙桥北路9号",
+        "city": "北京",
+        "note": "Campus-specific search using the official Chinese hospital name and address. Confirm the current entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "beijing-tiantan-puhua-hospital",
+      "englishName": "Beijing Puhua International Hospital",
+      "chineseName": "北京天坛普华医院",
+      "city": "Beijing",
+      "campusNameEn": "Tiantan Nanli Hospital",
+      "campusNameZh": "天坛南里院址",
+      "fullAddressZh": "北京市东城区天坛南里12号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "北京天坛普华医院",
+        "addressZh": "北京市东城区天坛南里12号",
+        "addressEnglish": "No. 12 Tiantan Nanli, Dongcheng District, Beijing",
+        "searchKeyword": "北京天坛普华医院 北京市东城区天坛南里12号",
+        "city": "北京",
+        "note": "Campus-specific search. Do not confuse this hospital with 北京天坛医院; verify the name and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "shanghai-american-sino-womens-childrens-hospital-songyuan-road",
+      "englishName": "American-Sino Women’s and Children’s Hospital — Songyuan Road",
+      "chineseName": "上海美华妇儿医院",
+      "city": "Shanghai",
+      "campusNameEn": "Songyuan Road Hospital",
+      "campusNameZh": "宋园路院区",
+      "fullAddressZh": "上海市徐汇区宋园路155号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "上海美华妇儿医院",
+        "addressZh": "上海市徐汇区宋园路155号",
+        "addressEnglish": "No. 155 Songyuan Road, Xuhui District, Shanghai",
+        "searchKeyword": "上海美华妇儿医院 上海市徐汇区宋园路155号",
+        "city": "上海",
+        "note": "Campus-specific search for the Songyuan Road hospital. Please verify the campus and department before departure. / 请出发前核对院区和科室。",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "shanghai-starkids-childrens-hospital-new-hongqiao",
+      "englishName": "Shanghai StarKids Children’s Hospital — New Hongqiao",
+      "chineseName": "上海星晨儿童医院",
+      "city": "Shanghai",
+      "campusNameEn": "New Hongqiao Branch",
+      "campusNameZh": "新虹桥分院",
+      "fullAddressZh": "上海市闵行区金光路1082弄115号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "上海星晨儿童医院（暨复旦大学附属儿科医院新虹桥分院）",
+        "addressZh": "上海市闵行区金光路1082弄115号",
+        "addressEnglish": "No. 115, Lane 1082 Jinguang Road, Minhang District, Shanghai",
+        "searchKeyword": "上海星晨儿童医院（暨复旦大学附属儿科医院新虹桥分院） 上海市闵行区金光路1082弄115号",
+        "city": "上海",
+        "note": "Campus-specific search for the New Hongqiao branch. Verify the branch and entrance before departure. / 请出发前核对新虹桥分院和入口。",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "guangzhou-elizabeth-womens-hospital-kangwang-road",
+      "englishName": "Guangzhou Elizabeth Women’s Hospital — Kangwang Road",
+      "chineseName": "广州伊丽莎白妇产医院",
+      "city": "Guangzhou",
+      "campusNameEn": "Kangwang Middle Road Hospital",
+      "campusNameZh": "康王中路院址",
+      "fullAddressZh": "广州市荔湾区康王中路484号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "广州伊丽莎白妇产医院",
+        "addressZh": "广州市荔湾区康王中路484号",
+        "addressEnglish": "No. 484 Kangwang Middle Road, Liwan District, Guangzhou",
+        "searchKeyword": "广州伊丽莎白妇产医院 广州市荔湾区康王中路484号",
+        "city": "广州",
+        "note": "Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "euram-international-medical-center-guangzhou",
+      "englishName": "EurAm International Medical Center — Guangzhou",
+      "chineseName": "广州康辰医疗",
+      "city": "Guangzhou",
+      "campusNameEn": "Ocean Pearl Building Clinic",
+      "campusNameZh": "远洋明珠大厦门诊部",
+      "fullAddressZh": "广州市天河区珠江新城华利路15号远洋明珠大厦北座首层",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "广州康辰医疗",
+        "addressZh": "广州市天河区珠江新城华利路15号远洋明珠大厦北座首层",
+        "addressEnglish": "Ground Floor, North Tower, Ocean Pearl Building, No. 15 Huali Road, Zhujiang New Town, Tianhe District, Guangzhou",
+        "searchKeyword": "广州康辰医疗 广州市天河区珠江新城华利路15号远洋明珠大厦北座首层",
+        "city": "广州",
+        "note": "Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "guangzhou-canam-international-medical-center-garden-hotel",
+      "englishName": "Guangzhou CanAm International Medical Center — Garden Hotel",
+      "chineseName": "广州加美医疗中心",
+      "city": "Guangzhou",
+      "campusNameEn": "Garden Tower Clinic",
+      "campusNameZh": "花园酒店花园大厦门诊部",
+      "fullAddressZh": "广州市越秀区环市东路368号花园酒店花园大厦5楼",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "广州加美医疗中心",
+        "addressZh": "广州市越秀区环市东路368号花园酒店花园大厦5楼",
+        "addressEnglish": "5th Floor, Garden Tower, Garden Hotel, No. 368 Huanshi East Road, Yuexiu District, Guangzhou",
+        "searchKeyword": "广州加美医疗中心 广州市越秀区环市东路368号花园酒店花园大厦5楼",
+        "city": "广州",
+        "note": "Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "guangzhou-fuda-cancer-hospital-tianhe-campus",
+      "englishName": "Guangzhou Fuda Cancer Hospital — Tianhe Campus",
+      "chineseName": "广州复大肿瘤医院（天河院区）",
+      "city": "Guangzhou",
+      "campusNameEn": "Tianhe Campus / North Campus",
+      "campusNameZh": "天河院区（北院区）",
+      "fullAddressZh": "广州市天河区棠德西路2号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "广州复大肿瘤医院天河院区",
+        "addressZh": "广州市天河区棠德西路2号",
+        "addressEnglish": "No. 2 Tangde West Road, Tianhe District, Guangzhou",
+        "searchKeyword": "广州复大肿瘤医院天河院区 广州市天河区棠德西路2号",
+        "city": "广州",
+        "note": "Please verify the campus and department with the hospital before departure. 该医院设有多个院区，相关服务可能仅在特定院区提供。请在出发前向医院核对院区和科室。 Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "guangzhou-fuda-cancer-hospital-haizhu-campus",
+      "englishName": "Guangzhou Fuda Cancer Hospital — Haizhu Campus",
+      "chineseName": "广州复大肿瘤医院（海珠院区）",
+      "city": "Guangzhou",
+      "campusNameEn": "Haizhu Campus / South Campus",
+      "campusNameZh": "海珠院区（南院区）",
+      "fullAddressZh": "广州市海珠区赤岗聚德中路91、93号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "广州复大肿瘤医院海珠院区",
+        "addressZh": "广州市海珠区赤岗聚德中路91、93号",
+        "addressEnglish": "Nos. 91 and 93 Jude Middle Road, Chigang, Haizhu District, Guangzhou",
+        "searchKeyword": "广州复大肿瘤医院海珠院区 广州市海珠区赤岗聚德中路91、93号",
+        "city": "广州",
+        "note": "Please verify the campus and department with the hospital before departure. 该医院设有多个院区，相关服务可能仅在特定院区提供。请在出发前向医院核对院区和科室。 Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "modern-cancer-hospital-guangzhou-lianquan-road",
+      "englishName": "Modern Cancer Hospital Guangzhou — Lianquan Road",
+      "chineseName": "广州现代医院",
+      "city": "Guangzhou",
+      "campusNameEn": "Lianquan Road Hospital",
+      "campusNameZh": "濂泉路院址",
+      "fullAddressZh": "广州市天河区沙河濂泉路42号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "广州现代医院",
+        "addressZh": "广州市天河区沙河濂泉路42号",
+        "addressEnglish": "No. 42 Lianquan Road, Shahe, Tianhe District, Guangzhou",
+        "searchKeyword": "广州现代医院 广州市天河区沙河濂泉路42号",
+        "city": "广州",
+        "note": "Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "southern-medical-university-nanfang-hospital-main-campus",
+      "englishName": "Nanfang Hospital, Southern Medical University — Main Campus",
+      "chineseName": "南方医科大学南方医院（院本部）",
+      "city": "Guangzhou",
+      "campusNameEn": "Main Campus",
+      "campusNameZh": "院本部",
+      "fullAddressZh": "广州市白云区广州大道北1838号",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Choose a map",
+        "destinationName": "南方医科大学南方医院院本部",
+        "addressZh": "广州市白云区广州大道北1838号",
+        "addressEnglish": "No. 1838 Guangzhou Avenue North, Baiyun District, Guangzhou",
+        "searchKeyword": "南方医科大学南方医院院本部 广州市白云区广州大道北1838号",
+        "city": "广州",
+        "amapPlaceUrl": "https://www.amap.com/place/B00140VAW2",
+        "amapPoiId": "B00140VAW2",
+        "latitude": 23.188439,
+        "longitude": 113.33056,
+        "coordinateSystem": "gaode",
+        "note": "Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "exact_campus_poi",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "southern-theater-command-general-hospital-baiyun-campus",
+      "englishName": "Southern Theater Command General Hospital — Baiyun Campus",
+      "chineseName": "南部战区总医院白云院区",
+      "city": "Guangzhou",
+      "campusNameEn": "Baiyun Campus",
+      "campusNameZh": "白云院区",
+      "fullAddressZh": "广州市白云区广州大道北白灰场路15号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "南部战区总医院白云院区",
+        "addressZh": "广州市白云区广州大道北白灰场路15号",
+        "addressEnglish": "No. 15 Baihuichang Road, Guangzhou Avenue North, Baiyun District, Guangzhou",
+        "searchKeyword": "南部战区总医院白云院区 广州市白云区广州大道北白灰场路15号",
+        "city": "广州",
+        "note": "Please verify the campus and department with the hospital before departure. 该医院设有多个院区，相关服务可能仅在特定院区提供。请在出发前向医院核对院区和科室。 Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "third-affiliated-hospital-sun-yat-sen-university-tianhe-campus",
+      "englishName": "The Third Affiliated Hospital, Sun Yat-sen University — Tianhe Campus",
+      "chineseName": "中山大学附属第三医院（天河院区）",
+      "city": "Guangzhou",
+      "campusNameEn": "Tianhe Campus / Main Hospital",
+      "campusNameZh": "天河院区（院本部）",
+      "fullAddressZh": "广州市天河区天河路600号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "中山大学附属第三医院天河院区",
+        "addressZh": "广州市天河区天河路600号",
+        "addressEnglish": "No. 600 Tianhe Road, Tianhe District, Guangzhou",
+        "searchKeyword": "中山大学附属第三医院天河院区 广州市天河区天河路600号",
+        "city": "广州",
+        "note": "Please verify the campus and department with the hospital before departure. 该医院设有多个院区，相关服务可能仅在特定院区提供。请在出发前向医院核对院区和科室。 Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "shenzhen-cmer-dennis-lam-eye-hospital-futian",
+      "englishName": "Shenzhen C-MER Dennis Lam Eye Hospital — Futian",
+      "chineseName": "深圳希玛林顺潮眼科医院",
+      "city": "Shenzhen",
+      "campusNameEn": "Futian Eye Hospital",
+      "campusNameZh": "福田眼科医院",
+      "fullAddressZh": "深圳市福田区沙头街道天安社区泰然九路盛唐商务大厦泰然九路1-1号西座301-314、东座303-304",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "深圳希玛林顺潮眼科医院",
+        "addressZh": "深圳市福田区沙头街道天安社区泰然九路盛唐商务大厦泰然九路1-1号西座301-314、东座303-304",
+        "addressEnglish": "Rooms 301–314, West Tower and Rooms 303–304, East Tower, Shengtang Business Building, No. 1-1 Tairan 9th Road, Futian District, Shenzhen",
+        "searchKeyword": "深圳希玛林顺潮眼科医院 深圳市福田区沙头街道天安社区泰然九路盛唐商务大厦泰然九路1-1号西座301-314、东座303-304",
+        "city": "深圳",
+        "note": "Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "shenzhen-second-peoples-hospital-futian-main-campus",
+      "englishName": "Shenzhen Second People’s Hospital — Futian Main Campus",
+      "chineseName": "深圳市第二人民医院（总院）",
+      "city": "Shenzhen",
+      "campusNameEn": "Futian Main Campus",
+      "campusNameZh": "总院",
+      "fullAddressZh": "深圳市福田区笋岗西路3002号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "深圳市第二人民医院",
+        "addressZh": "深圳市福田区笋岗西路3002号",
+        "addressEnglish": "No. 3002 Sungang West Road, Futian District, Shenzhen",
+        "searchKeyword": "深圳市第二人民医院 深圳市福田区笋岗西路3002号",
+        "city": "深圳",
+        "note": "Please verify the campus and department with the hospital before departure. 该医院设有多个院区，相关服务可能仅在特定院区提供。请在出发前向医院核对院区和科室。 Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "shenzhen-maternal-child-healthcare-hospital-hongli-campus",
+      "englishName": "Shenzhen Maternal and Child Healthcare Hospital — Hongli Campus",
+      "chineseName": "深圳市妇幼保健院（红荔院区）",
+      "city": "Shenzhen",
+      "campusNameEn": "Hongli Campus",
+      "campusNameZh": "红荔院区",
+      "fullAddressZh": "深圳市福田区红荔路2004号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "深圳市妇幼保健院红荔院区",
+        "addressZh": "深圳市福田区红荔路2004号",
+        "addressEnglish": "No. 2004 Hongli Road, Futian District, Shenzhen",
+        "searchKeyword": "深圳市妇幼保健院红荔院区 深圳市福田区红荔路2004号",
+        "city": "深圳",
+        "note": "Please verify the campus and department with the hospital before departure. 该医院设有多个院区，相关服务可能仅在特定院区提供。请在出发前向医院核对院区和科室。 Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "shenzhen-maternal-child-healthcare-hospital-fuqiang-campus",
+      "englishName": "Shenzhen Maternal and Child Healthcare Hospital — Fuqiang Campus",
+      "chineseName": "深圳市妇幼保健院（福强院区）",
+      "city": "Shenzhen",
+      "campusNameEn": "Fuqiang Campus",
+      "campusNameZh": "福强院区",
+      "fullAddressZh": "深圳市福田区福强路3012号",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "深圳市妇幼保健院福强院区",
+        "addressZh": "深圳市福田区福强路3012号",
+        "addressEnglish": "No. 3012 Fuqiang Road, Futian District, Shenzhen",
+        "searchKeyword": "深圳市妇幼保健院福强院区 深圳市福田区福强路3012号",
+        "city": "深圳",
+        "note": "Please verify the campus and department with the hospital before departure. 该医院设有多个院区，相关服务可能仅在特定院区提供。请在出发前向医院核对院区和科室。 Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "shenzhen-traditional-chinese-medicine-hospital-futian-campus",
+      "englishName": "Shenzhen Traditional Chinese Medicine Hospital — Futian Campus",
+      "chineseName": "深圳市中医院（福田院区）",
+      "city": "Shenzhen",
+      "campusNameEn": "Futian Campus",
+      "campusNameZh": "福田院区",
+      "fullAddressZh": "深圳市福田区福华路1号",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Choose a map",
+        "destinationName": "深圳市中医院福田院区",
+        "addressZh": "深圳市福田区福华路1号",
+        "addressEnglish": "No. 1 Fuhua Road, Futian District, Shenzhen",
+        "searchKeyword": "深圳市中医院福田院区 深圳市福田区福华路1号",
+        "city": "深圳",
+        "amapPlaceUrl": "https://www.amap.com/place/B02F37V46B",
+        "amapPoiId": "B02F37V46B",
+        "latitude": 22.537003,
+        "longitude": 114.085633,
+        "coordinateSystem": "gaode",
+        "note": "Please verify the campus and department with the hospital before departure. 该医院设有多个院区，相关服务可能仅在特定院区提供。请在出发前向医院核对院区和科室。 Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "exact_campus_poi",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "shenzhen-luohu-peoples-hospital-jiabin-campus",
+      "englishName": "Shenzhen Luohu People’s Hospital — Jiabin Campus",
+      "chineseName": "深圳市罗湖区人民医院（嘉宾院区）",
+      "city": "Shenzhen",
+      "campusNameEn": "Jiabin Campus / Youyi Road",
+      "campusNameZh": "嘉宾院区（友谊路）",
+      "fullAddressZh": "深圳市罗湖区友谊路47号",
+      "navigation": {
+        "mode": "exact",
+        "buttonLabel": "Choose a map",
+        "destinationName": "深圳市罗湖区人民医院嘉宾院区",
+        "addressZh": "深圳市罗湖区友谊路47号",
+        "addressEnglish": "No. 47 Youyi Road, Luohu District, Shenzhen",
+        "searchKeyword": "深圳市罗湖区人民医院嘉宾院区 深圳市罗湖区友谊路47号",
+        "city": "深圳",
+        "amapPlaceUrl": "https://www.amap.com/place/B02F38IHAD",
+        "amapPoiId": "B02F38IHAD",
+        "latitude": 22.53785,
+        "longitude": 114.122198,
+        "coordinateSystem": "gaode",
+        "note": "Please verify the campus and department with the hospital before departure. 该医院设有多个院区，相关服务可能仅在特定院区提供。请在出发前向医院核对院区和科室。 Use the exact Chinese campus name and address; confirm the department and entrance before departure.",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          },
+          "amapGlobal": {
+            "status": "exact_campus_poi",
+            "retrievalDate": "2026-08-02"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-02"
+          }
+        }
+      }
+    },
+    {
+      "id": "raffles-hospital-shanghai",
+      "englishName": "Raffles Hospital Shanghai",
+      "chineseName": "上海莱佛士医院",
+      "city": "Shanghai",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "上海莱佛士医院",
+        "addressZh": "上海市浦东新区园照路200号",
+        "addressEnglish": "No. 200 Yuanzhao Road, Pudong New Area, Shanghai",
+        "searchKeyword": "上海莱佛士医院 上海市浦东新区园照路200号",
+        "city": "上海",
+        "note": "Use the exact Chinese hospital name and address. Confirm the department, building and entrance before departure. 请使用准确的中文医院名称和地址，并在出发前核对科室、楼栋和入口。",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-03"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-03"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-03"
+          }
+        }
+      }
+    },
+    {
+      "id": "deltahealth-hospital-shanghai",
+      "englishName": "DeltaHealth Hospital Shanghai",
+      "chineseName": "上海德达心血管医院",
+      "city": "Shanghai",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "上海德达心血管医院",
+        "addressZh": "上海市青浦区徐泾镇徐乐路109号",
+        "addressEnglish": "No. 109 Xule Road, Xujing, Qingpu District, Shanghai",
+        "searchKeyword": "上海德达心血管医院 上海市青浦区徐泾镇徐乐路109号",
+        "city": "上海",
+        "note": "Use the exact Chinese hospital name and address. Confirm the department, building and entrance before departure. 请使用准确的中文医院名称和地址，并在出发前核对科室、楼栋和入口。",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-03"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-03"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-03"
+          }
+        }
+      }
+    },
+    {
+      "id": "parkway-hospital-shanghai",
+      "englishName": "Parkway Shanghai Hospital",
+      "chineseName": "上海百汇医院",
+      "city": "Shanghai",
+      "navigation": {
+        "mode": "search",
+        "buttonLabel": "Choose a map",
+        "destinationName": "上海百汇医院",
+        "addressZh": "上海市闵行区季乐路1172号",
+        "addressEnglish": "No. 1172 Jile Road, Minhang District, Shanghai",
+        "searchKeyword": "上海百汇医院 上海市闵行区季乐路1172号",
+        "city": "上海",
+        "note": "Use the exact Chinese hospital name and address. Confirm the department, building and entrance before departure. 请使用准确的中文医院名称和地址，并在出发前核对科室、楼栋和入口。",
+        "providerVerification": {
+          "appleMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-03"
+          },
+          "amapGlobal": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-03"
+          },
+          "baiduMaps": {
+            "status": "campus_search",
+            "retrievalDate": "2026-08-03"
+          }
+        }
+      }
+    }
+  ]
+}

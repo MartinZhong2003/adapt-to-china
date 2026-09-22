@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Halal Food Finder in China | Adapt to China</title>
+<meta content="Search a carefully verified starting list of halal dining options in Beijing, Shanghai, Guangzhou and Shenzhen. Bilingual names, evidence status, practical cautions and map links." name="description"/>
+<link href="https://adapttochina.pages.dev/halal-food.html" rel="canonical"/>
+<meta content="Adapt to China" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="Halal Food Finder in Beijing, Shanghai, Guangzhou and Shenzhen" property="og:title"/>
+<meta content="A practical, evidence-centred restaurant directory for international newcomers. Adapt to China does not independently certify restaurants." property="og:description"/>
+<meta content="https://adapttochina.pages.dev/halal-food.html" property="og:url"/>
+<meta content="https://adapttochina.pages.dev/hero_lujiazui.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="map-links.js"></script>
+<script defer="" src="halal-food.js"></script>
+</head>
+<body class="halal-finder-page">
+<nav aria-label="Primary">
+<div class="nav-in">
+<a class="logo" href="index.html">ADAPT<span>·TO·</span>CHINA</a>
+<div class="nav-links" id="nav-links"><a href="index.html#explore">Plan Your Move</a><a href="guides.html">Daily Guides</a><a href="index.html#finders">Free Tools</a><a href="about.html">About &amp; Community</a></div>
+<div class="nav-right"><a class="nav-cta" href="answers.html">Get local help →</a>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Open menu" class="nav-burger" type="button">☰</button>
+</div>
+</div>
+</nav>
+<main>
+<div class="sf-subnav-wrap"><div class="wrap"><div class="sf-subnav" aria-label="Special Food Finder sections"><a href="special-food.html">Overview</a><a class="active" href="halal-food.html">Halal</a><a href="vegetarian-food.html">Vegetarian &amp; vegan</a></div></div></div>
+
+<section aria-labelledby="hf-finder-title" class="hf-finder-section hf-finder-section--first" id="finder">
+<div class="wrap">
+<div class="hf-section-head">
+<div>
+<span class="plate teal"><span class="tag">HALAL FOOD FINDER</span><span class="en">Four-city starting list</span></span>
+<h2 id="hf-finder-title">Find halal food</h2>
+<p>Search 40 selected branches across four cities, then open one in your preferred map.</p>
+</div>
+</div>
+<div class="hf-data-alert" hidden="" id="hf-data-alert" role="alert"></div>
+<div class="hf-finder-shell">
+<div class="hf-search-row">
+<div class="hf-search-box">
+<span aria-hidden="true">⌕</span>
+<label class="sr-only" for="hf-search">Search restaurants</label>
+<input autocomplete="off" id="hf-search" placeholder="Search name, 清真, cuisine or district" type="search"/>
+<button hidden id="hf-clear-search" type="button">Clear</button>
+</div>
+<label class="hf-city-control"><span>City</span>
+<select id="hf-city"><option value="">All four cities</option></select>
+</label>
+<button aria-controls="hf-filter-panel" aria-expanded="false" class="btn hf-filter-toggle" id="hf-filter-toggle" type="button">Filters <span id="hf-filter-count">0</span></button>
+<button class="btn hf-reset" id="hf-reset" type="button">Reset</button>
+</div>
+<div class="hf-filter-panel" id="hf-filter-panel">
+<div aria-label="Restaurant filters" class="hf-filter-grid">
+<label>District
+<select id="hf-district"><option value="">All districts</option></select>
+</label>
+<label>Price
+<select id="hf-price">
+<option value="">Any price</option>
+<option value="budget">Budget</option>
+<option value="moderate">Moderate</option>
+<option value="higher-priced">Higher-priced</option>
+</select>
+</label>
+<label>Evidence
+<select id="hf-evidence">
+<option value="">Any evidence category</option>
+<option value="publicly_identified_as_halal">Publicly identified as halal</option>
+<option value="restaurant_self_identifies">Restaurant states it is halal</option>
+<option value="recent_diner_reports_only">Recently reported by diners</option>
+</select>
+</label>
+<label>Confidence
+<select id="hf-confidence">
+<option value="">Any confidence</option>
+<option value="high">High</option>
+<option value="medium">Medium</option>
+</select>
+</label>
+</div>
+<div aria-label="Practical filters" class="hf-quick-filters">
+<label><input id="hf-delivery" type="checkbox"/> Delivery listed</label>
+<label><input id="hf-budget" type="checkbox"/> Student-budget option</label>
+<label><input id="hf-late" type="checkbox"/> Late-night option</label>
+</div>
+</div>
+<div class="hf-results-meta">
+<p aria-live="polite" id="hf-result-count" role="status">Loading restaurants…</p>
+<p>Open a profile for its address, evidence, and cautions.</p>
+</div>
+<div aria-busy="true" aria-live="polite" class="hf-results" id="hf-results">
+<div class="hf-loading"><span></span><p>Loading the directory…</p></div>
+</div>
+<div class="hf-show-more-wrap"><button class="btn" hidden="" id="hf-show-more" type="button">Show more restaurants</button></div>
+</div>
+<div class="hf-directory-note">
+<strong>Before you travel or order</strong>
+<span>Confirm the branch, hours, and what matters to you. A name, cuisine, or absence of visible pork does not establish halal status.</span>
+</div>
+</div>
+</section>
+<section aria-labelledby="hf-how-title" class="hf-how-section" id="useful-phrases">
+<div class="wrap">
+<div class="hf-how-grid">
+<div>
+<span class="plate"><span class="tag">HOW TO USE</span><span class="en">Search in Chinese</span></span>
+<h2 id="hf-how-title">Need to search elsewhere?</h2>
+<p class="lead">Chinese names work better in local apps.</p>
+<div class="hf-search-terms">
+<div><code>清真餐厅</code><span>halal restaurant</span></div>
+<div><code>清真美食</code><span>halal food</span></div>
+<div><code>清真牛肉面</code><span>halal beef noodles</span></div>
+<div><code>清真新疆菜</code><span>halal Xinjiang cuisine</span></div>
+</div>
+</div>
+<div class="hf-phrase-card">
+<h3>Questions you can show the restaurant</h3>
+<ul>
+<li><strong>请问这里是清真餐厅吗？</strong><span>Is this a halal restaurant?</span></li>
+<li><strong>菜里有猪肉、猪油或料酒吗？</strong><span>Does the food contain pork, lard or cooking wine?</span></li>
+<li><strong>厨具和炸油会和其他菜共用吗？</strong><span>Are utensils or frying oil shared with other dishes?</span></li>
+<li><strong>可以把餐厅的中文名和地址发给我吗？</strong><span>Could you send me the restaurant’s Chinese name and address?</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="hf-method-title" class="hf-method-section" id="method">
+<div class="wrap">
+<div class="hf-method-grid">
+<div>
+<span class="plate red"><span class="tag">EVIDENCE</span><span class="en">What the labels mean</span></span>
+<h2 id="hf-method-title">Evidence—not certification.</h2>
+<p>Labels separate public listings, restaurant statements, and diner reports. Confidence does not mean the kitchen was inspected.</p>
+</div>
+<div class="hf-legend">
+<div><span class="hf-evidence-badge evidence-public">Publicly identified</span><p>Public sources use halal or 清真.</p></div>
+<div><span class="hf-evidence-badge evidence-self">Restaurant states halal</span><p>The venue describes itself as halal.</p></div>
+<div><span class="hf-evidence-badge evidence-reports">Diner reports only</span><p>Recent reports exist, but official evidence is limited.</p></div>
+</div>
+</div>
+<div class="hf-full-disclaimer">
+<strong>Directory disclaimer</strong>
+<p>Adapt to China does not inspect or certify restaurants. Ingredients, methods, alcohol service, and pork handling may change. Verify the branch directly.</p>
+</div>
+</div>
+</section>
+<section aria-labelledby="halal-feedback-title" class="validation-cta-section">
+<div class="wrap validation-cta">
+<div>
+<h2 id="halal-feedback-title">What is still missing?</h2>
+<p>Share your city, need, and missing information.</p>
+</div>
+
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap foot-grid">
+<div>© 2026 · Adapt to China · Built in Shanghai by Martin<br/>Practical consumer information only.</div>
+<div class="foot-links">
+<a href="index.html">Home</a>
+<a href="guides.html">Daily life guides</a>
+<a href="special-food.html">Special food</a><a href="vegetarian-food.html">Vegetarian &amp; vegan</a><a href="healthcare.html">Healthcare</a>
+<a href="about.html">About</a>
+<a href="answers.html">Ask me</a>
+
+</div>
+</div>
+</footer>
+<script data-cf-beacon='{"token":"9a216b8bfa1d40169670f0f754b2b6bf"}' src="https://static.cloudflareinsights.com/beacon.min.js" type="module"></script>
+</body>
+</html>

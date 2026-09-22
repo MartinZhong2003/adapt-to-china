@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adapttochina.pages.dev/data/hospital-schema.json",
+  "title": "Adapt to China Hospital Finder Campus-Level Directory",
+  "type": "object",
+  "required": [
+    "dataset",
+    "hospitals"
+  ],
+  "properties": {
+    "dataset": {
+      "type": "object"
+    },
+    "hospitals": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "slug",
+          "englishName",
+          "city",
+          "hospitalType",
+          "internationalSupport",
+          "foreignPatientInformation",
+          "medicalServices",
+          "evidence",
+          "profileCompleteness"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "englishName": {
+            "type": "string"
+          },
+          "chineseName": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "hospitalType": {
+            "enum": [
+              "Public",
+              "Private"
+            ]
+          },
+          "facilityKind": {
+            "enum": [
+              "hospital",
+              "clinic"
+            ]
+          },
+          "profileCompleteness": {
+            "enum": [
+              "full",
+              "summary"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "$defs": {
+    "status": {
+      "enum": [
+        "no",
+        "not_publicly_available",
+        "unknown",
+        "verify_before_publication",
+        "yes",
+        "available_at_another_campus"
+      ]
+    }
+  }
+}

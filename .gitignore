@@ -1,0 +1,20 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Internal / private material
+integration-notes/
+private/
+customers/
+orders/
+
+# Logs
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,831 @@
+{
+  "sourceDocument": "Adapt_to_China_Hospital_Finder_Master_Database汇总.docx + Hospital Finder Expansion Research + 3 August 2026 Shanghai verification review",
+  "notes": "Consolidated source log. Three Shanghai hospital records were independently checked against current official hospital and Shanghai municipal sources and appended on 2026-08-03.",
+  "sources": [
+    {
+      "id": 1,
+      "title": "Huashan Hospital Affiliated to Fudan University",
+      "url": "https://english.shanghai.gov.cn/en-Hospitals/20241014/e3bebde56c344efcbc3ca57e3a50e55a.html"
+    },
+    {
+      "id": 2,
+      "title": "Peking Union Medical College Hospital - Medical Care",
+      "url": "https://www.pumch.cn/en/medical_care.html"
+    },
+    {
+      "id": 3,
+      "title": "Jiahui Health",
+      "url": "https://jiahui.com/en"
+    },
+    {
+      "id": 4,
+      "title": "Peking Union Medical College Hospital - International Services",
+      "url": "https://www.pumch.cn/en/new_service.html"
+    },
+    {
+      "id": 5,
+      "title": "United Family Healthcare",
+      "url": "https://ufh.com.cn/en/"
+    },
+    {
+      "id": 6,
+      "title": "The First Affiliated Hospital, Sun Yat-sen University - International Medicine",
+      "url": "https://www.fahsysu.org.cn/en/basic/5855"
+    },
+    {
+      "id": 7,
+      "title": "The University of Hong Kong - Shenzhen Hospital - International Medical Center",
+      "url": "https://www.hku-szh.org/en/imc/index.html"
+    },
+    {
+      "id": 8,
+      "title": "Jiahui Health Hangzhou Clinic",
+      "url": "https://mobile.jiahui.com/en/locations/JHC"
+    },
+    {
+      "id": 9,
+      "title": "West China Hospital - International Medical Center",
+      "url": "https://www.wchscu.cn/en/interna_heal.html"
+    },
+    {
+      "id": 10,
+      "title": "International Healthcare in Nanjing",
+      "url": "https://wb.nanjing.gov.cn/english_67934/foreignerservices/medical/"
+    },
+    {
+      "id": 11,
+      "title": "Jiahui Health Suzhou Clinic",
+      "url": "https://mobile.jiahui.com/en/locations/JAC"
+    },
+    {
+      "id": 12,
+      "title": "Tongji Hospital - International Medical Services",
+      "url": "https://www.tjh.com.cn/tjh_en/channels/1109.html"
+    },
+    {
+      "id": 13,
+      "title": "Xi’an International Medical Center Hospital",
+      "url": "https://webpc.imc-xa.cn/"
+    },
+    {
+      "id": 14,
+      "title": "Medical Assistance - U.S. Embassy & Consulates in China",
+      "url": "https://china.usembassy-china.org.cn/medical-assistance/"
+    },
+    {
+      "id": 15,
+      "title": "Medical treatment in China - GOV.UK",
+      "url": "https://www.gov.uk/government/publications/medical-treatment-in-china/medical-treatment-in-china"
+    },
+    {
+      "id": 16,
+      "title": "Health - China travel advice - GOV.UK",
+      "url": "https://www.gov.uk/foreign-travel-advice/china/health"
+    },
+    {
+      "id": 17,
+      "title": "Beijing United Family Hospital: International-Standard Family Healthcare - MedBridgeNZ",
+      "url": "https://www.medbridgenz.com/beijing-united-family-hospital"
+    },
+    {
+      "id": 18,
+      "title": "The University of Hong Kong - Shenzhen Hospital 香港大学深圳医院",
+      "url": "https://chinamedlink.net/hospitals/the-university-of-hong-kong-shenzhen-hospital-shenzhen"
+    },
+    {
+      "id": 19,
+      "title": "The University of Hong Kong - Shenzhen Hospital 香港大学深圳医院",
+      "url": "https://chinamedlink.net/hospitals/the-university-of-hong-kong-shenzhen-hospital-shenzhen?lang=en"
+    },
+    {
+      "id": 20,
+      "title": "Sir Run Run Shaw Hospital (SRRSH) 浙江大学医学院附属邵逸夫医院 — Hangzhou",
+      "url": "https://chinamedlink.net/hospitals/sir-run-run-shaw-hospital-hangzhou?lang=id"
+    },
+    {
+      "id": 21,
+      "title": "West China Hospital, Sichuan University (IHSP) 四川大学华西医院 — Chengdu",
+      "url": "https://chinamedlink.net/hospitals/west-china-hospital-sichuan-university-chengdu?lang=en"
+    },
+    {
+      "id": 22,
+      "title": "West China Hospital, Sichuan University",
+      "url": "http://www.medorrahealth.com/index.php?s=website&c=home&m=hospital&id=63&lang=en"
+    },
+    {
+      "id": 23,
+      "title": "Jiahui International Hospital Review | VIP-Standard Healthcare",
+      "url": "https://chinacarehealthtours.com/hospitals/shanghai/jiahui-international-hospital/"
+    },
+    {
+      "id": 24,
+      "title": "INTERNATIONAL PATIENTS SERVICES",
+      "url": "http://m.tkxlglyy.com/xlglyy_en/index/137708/index.html"
+    },
+    {
+      "id": 25,
+      "title": "Beijing United Family Hospital Review: Top International Healthcare in Beijing",
+      "url": "https://chinacarehealthtours.com/hospitals/beijing/beijing-united-family-hospital-review-top-international-healthcare-in-beijing/"
+    },
+    {
+      "id": 26,
+      "title": "United Family Healthcare in China - My 1Health",
+      "url": "https://my1health.com/hospital/china/beijing/united-family-healthcare/about"
+    },
+    {
+      "id": 27,
+      "title": "Beijing United Family Hospital (BJU) 北京和睦家医院",
+      "url": "https://chinamedlink.net/hospitals/beijing-united-family-hospital-beijing"
+    },
+    {
+      "id": 28,
+      "title": "Insurance & Direct Billing | Beijing United Family Rehabilitation Hospital",
+      "url": "https://rehab.ufh.com.cn/patient-visitor-info/insurance-direct-billing?lang=en"
+    },
+    {
+      "id": 29,
+      "title": "Nanjing Drum Tower Hospital - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nanjing_Drum_Tower_Hospital"
+    },
+    {
+      "id": 30,
+      "title": "Beijing United Family Hospital (BJU) 北京和睦家医院",
+      "url": "https://chinamedlink.net/hospitals/beijing-united-family-hospital-beijing?lang=en"
+    },
+    {
+      "id": 31,
+      "title": "HKU Shenzhen Hospital - Useful Information for Hong Kong Residents",
+      "url": "https://covid19.med.hku.hk/en/Health-System/Service-Unit/HKU-SZH/HKU-SZH---Useful-Information-for-Hong-Kong-Residents"
+    },
+    {
+      "id": 32,
+      "title": "Major Hospitals in Suzhou - Health - chinajob.com",
+      "url": "https://www.chinajob.com/city_content/detail.php?id=zl5lTtOZQlEBuEebIb"
+    },
+    {
+      "id": 33,
+      "title": "Booking service-The Hong Kong University - Shenzhen Hospital",
+      "url": "https://www.hku-szh.org/en/MakeanAppointment(HK-Macao-Residents)/Bookingservice/index.html"
+    },
+    {
+      "id": 34,
+      "title": "The affiliated Sir Run Run Shaw Hospital",
+      "url": "http://www.cmm.zju.edu.cn/cmmenglish/32084/list.psp"
+    },
+    {
+      "id": 35,
+      "title": "Shanghai Jiahui International Hospital_Hospitals",
+      "url": "https://english.shanghai.gov.cn/en-Hospitals/20241015/0713301b57674e95b6f7e8b91420258a.html"
+    },
+    {
+      "id": 36,
+      "title": "Sir Run Run Shaw Hospital - Zhejiang",
+      "url": "http://www.ezhejiang.gov.cn/2018-03/23/c_393658.htm"
+    },
+    {
+      "id": 37,
+      "title": "West China hospital, sichuan university",
+      "url": "https://www.wchscu.cn/Home.html"
+    },
+    {
+      "id": 38,
+      "title": "Provider details - The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School",
+      "url": "https://hpscreg.eu/browse/provider/1494"
+    },
+    {
+      "id": 39,
+      "title": "Beijing United Family Hospital",
+      "url": "https://english.beijing.gov.cn/quickguideservices/medicalguide/majormedicalinstitutions/202312/t20231220_3505704.html"
+    },
+    {
+      "id": 40,
+      "title": "Patient Services | Beijing United Family Rehabilitation Hospital",
+      "url": "https://rehab.ufh.com.cn/patient-visitor-info/patient-services?lang=en"
+    },
+    {
+      "id": 41,
+      "title": "Solutions for Individuals and Families - United Family Healthcare",
+      "url": "https://ufh.com.cn/en/solutions/b2c/"
+    },
+    {
+      "id": 42,
+      "title": "Beijing United Family Rehabilitation Hospital - Clinics on Call - Clinicsoncall.com",
+      "url": "https://clinicsoncall.com/en/clinic/beijing-united-family-rehabilitation-hospital/"
+    },
+    {
+      "id": 43,
+      "title": "Direct Billing Hospitals - Insure Travel",
+      "url": "https://www.insure.travel/netcat_files/userfiles/other/Articles/Direct_Billing_Hospitals_-_AOC_Insurance_Broker.pdf"
+    },
+    {
+      "id": 44,
+      "title": "Emergency Medical Assistance and Evacuation Services - U.S. Embassy & Consulates in China",
+      "url": "https://china.usembassy-china.org.cn/wp-content/uploads/sites/23/2024/06/Emergency-Medical-Assistance-and-Evacuation-Services-in-Southern-China-06-2024.pdf"
+    },
+    {
+      "id": 45,
+      "title": "Booking Guidelines-The Hong Kong University - Shenzhen Hospital",
+      "url": "http://www.hku-szh.org/en/PatientInfo/BookingService/index.html"
+    },
+    {
+      "id": 46,
+      "title": "The University of Hong Kong-Shenzhen Hospital | School of Medicine",
+      "url": "https://med.cuhk.edu.cn/en/page/1165"
+    },
+    {
+      "id": 47,
+      "title": "The Hong Kong University - Shenzhen Hospital",
+      "url": "https://www.hku-szh.org/en/"
+    },
+    {
+      "id": 48,
+      "title": "Sir Run Run Shaw Hospital, Zhejiang University School of Medicine浙江大学医学院附属邵逸夫医院 - Hangzhou - Minimally Invasive Surgery, Obstetrics and Gynecology - China Medical Tourism Guide",
+      "url": "https://www.medchinaguide.com/china-top-hospitals/hangzhou/sir-run-run-shaw-hospital-zhejiang-university-school-of-medicine"
+    },
+    {
+      "id": 49,
+      "title": "Sir Run Run Shaw Hospital",
+      "url": "https://www.srrsh-english.com/"
+    },
+    {
+      "id": 50,
+      "title": "Contact Us - Sir Run Run Shaw Hospital",
+      "url": "https://www.srrsh-english.com/contactUs"
+    },
+    {
+      "id": 51,
+      "title": "Sir Run Run Shaw Hospital - Mapy.com",
+      "url": "https://mapy.com/en/?source=osm&id=17392965"
+    },
+    {
+      "id": 52,
+      "title": "Sir Run Run Shaw Hospital - Global Health Institute | Loma Linda University",
+      "url": "https://ghi.llu.edu/partnerships/strategic-partner-sites/sir-run-run-shaw-hospital"
+    },
+    {
+      "id": 53,
+      "title": "Sir Run Run Shaw Hospital Zhejiang University School of Medicine | Capture the Fracture",
+      "url": "https://www.capturethefracture.org/fls/sir-run-run-shaw-hospital-zhejiang-university-school-medicine"
+    },
+    {
+      "id": 54,
+      "title": "Contact Us - Sir Run Run Shaw Hospital",
+      "url": "https://www.srrsh-english.com/contact_us"
+    },
+    {
+      "id": 55,
+      "title": "West China Medical Center - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/West_China_Medical_Center"
+    },
+    {
+      "id": 56,
+      "title": "Medical Services - - Overseas Students Office, Sichuan University",
+      "url": "https://global.scu.edu.cn/oso/article/details/962b333d-fcb9-4c96-9938-22feeff8fb8e"
+    },
+    {
+      "id": 57,
+      "title": "International Medical Center - West China hospital, sichuan university",
+      "url": "https://www.wchscu.cn/details/50466.html"
+    },
+    {
+      "id": 58,
+      "title": "Hospitals - Scimea",
+      "url": "http://intl.scimea.cn/News-lists-id-10.html"
+    },
+    {
+      "id": 59,
+      "title": "Medical Services - 南京大学",
+      "url": "https://stuex.nju.edu.cn/en_/23293/list.htm"
+    },
+    {
+      "id": 60,
+      "title": "List of medical facilities in China - GOV.UK",
+      "url": "https://www.gov.uk/government/publications/list-of-hospitals-in-china/list-of-medical-facilities-in-china"
+    },
+    {
+      "id": 61,
+      "title": "Medical Information",
+      "url": "https://cis.seu.edu.cn/hwenglish/MedicalInformation/list.htm"
+    },
+    {
+      "id": 62,
+      "title": "Nanjing Drum Tower Hospital: Bringing Best Practices in Physician Training to China - Johns Hopkins Medicine",
+      "url": "https://www.hopkinsmedicine.org/international/health-care-consulting/asia-pacific/nanjing-drum-tower-hospital"
+    },
+    {
+      "id": 63,
+      "title": "Hospitals in Jiangsu province | govt.chinadaily.com.cn",
+      "url": "https://govt.chinadaily.com.cn/s/201905/21/WS5ce39f80498e079e68021491/hospitals-in-jiangsu-province.html"
+    },
+    {
+      "id": 64,
+      "title": "Internship Hospitals - Nanjing Medical University",
+      "url": "https://english.njmu.edu.cn/6080/list.htm"
+    },
+    {
+      "id": 65,
+      "title": "First Affiliated Hospital of Soochow University – SAFTOP",
+      "url": "https://www.saftop.cn/en/pingjiang-new-hospital-of-the-first-affiliated-hospital-of-soochow-university/"
+    },
+    {
+      "id": 66,
+      "title": "Address of Medical College of Soochow University | BestEduChina",
+      "url": "http://www.besteduchina.com/medical_college_of_soochow_university/universityaddress.html"
+    },
+    {
+      "id": 67,
+      "title": "Internship Hospitals - West China Medical Center of Sichuan University | BestEduChina",
+      "url": "http://www.besteduchina.com/west_china_medical_center_of_sichuan_university/hospitals.html"
+    },
+    {
+      "id": 68,
+      "title": "Introduction-About Us-West China the second hospital",
+      "url": "https://en.motherchildren.com/en_about_introduction/"
+    },
+    {
+      "id": 69,
+      "title": "Municipal Hospitals_City Hospitals-Shenzhen Government Online - 深圳市人民政府",
+      "url": "https://www.sz.gov.cn/en_szgov/life/hospitals/municipal/index.html"
+    },
+    {
+      "id": 70,
+      "title": "Beijing Tsinghua Changgung Hospital",
+      "url": "https://wjw.beijing.gov.cn/xwzx_20031/jcdt/202308/t20230808_3218325.html"
+    },
+    {
+      "id": 71,
+      "title": "Raffles Hospital Beijing",
+      "url": "https://www.rafflesmedicalchina.com/site/beijing-hospital/contact-us"
+    },
+    {
+      "id": 72,
+      "title": "Beijing Children’s Hospital",
+      "url": "https://bch-yl.54doctor.net/Html/News/Articles/21547.html"
+    },
+    {
+      "id": 73,
+      "title": "Shanghai United Family Hospital",
+      "url": "https://m.shhqcbd.gov.cn/yshj/ggfwpt/yl/724603877969989.html"
+    },
+    {
+      "id": 74,
+      "title": "Shanghai Yida Hospital International Medical Center",
+      "url": "https://en.yidahospital.com/news/1111"
+    },
+    {
+      "id": 75,
+      "title": "Shanghai Fourth People’s Hospital Jin Guang International Medical Department",
+      "url": "https://www.shhk.gov.cn/slh/038001/20250402/0701ac3b-46f5-460b-b216-d9846c429694.html"
+    },
+    {
+      "id": 76,
+      "title": "Guangdong Provincial People’s Hospital Xiehe Advanced Medical Center",
+      "url": "https://www.gdghospital.org.cn/newshospital/info_itemid_67669.html"
+    },
+    {
+      "id": 77,
+      "title": "Guangzhou United Family Hospital",
+      "url": "https://guangzhou.ufh.com.cn/locations"
+    },
+    {
+      "id": 78,
+      "title": "Guangzhou Women and Children’s Medical Center",
+      "url": "https://wjw.gz.gov.cn/fwcx/yycx/yxqyy/content/post_9213072.html"
+    },
+    {
+      "id": 79,
+      "title": "Shenzhen People’s Hospital International Medical Department",
+      "url": "https://www.szhospital.com/"
+    },
+    {
+      "id": 80,
+      "title": "Shenzhen New Frontier United Family Hospital",
+      "url": "https://szu.ufh.com.cn/locations"
+    },
+    {
+      "id": 81,
+      "title": "Zhejiang Hospital",
+      "url": "https://english.zjhospital.com.cn/"
+    },
+    {
+      "id": 82,
+      "title": "Children’s Hospital, Zhejiang University School of Medicine",
+      "url": "https://www.zjuch.cn/about/index"
+    },
+    {
+      "id": 83,
+      "title": "Global Doctor Chengdu International Medical Center",
+      "url": "https://globaldoctors.asia/global-doctor-china/"
+    },
+    {
+      "id": 84,
+      "title": "Sichuan Provincial People’s Hospital",
+      "url": "https://www.samsph.cn/introduce/"
+    },
+    {
+      "id": 85,
+      "title": "Chengdu Aidi Eye Hospital",
+      "url": "https://www.028aidi.com/news/3193.html"
+    },
+    {
+      "id": 86,
+      "title": "Nanjing International Hospital, Nanjing University Medical School",
+      "url": "https://www.njjy.gov.cn/jyyw/202405/t20240509_4661969.html"
+    },
+    {
+      "id": 87,
+      "title": "Nanjing BenQ Medical Center",
+      "url": "https://nj.benqmedicalcenter.com/"
+    },
+    {
+      "id": 88,
+      "title": "Children’s Hospital of Soochow University",
+      "url": "https://www.sdfey.cn/zong-yuan.html"
+    },
+    {
+      "id": 89,
+      "title": "Suzhou BOE Hospital",
+      "url": "https://szhospital.boe.com/index/offline"
+    },
+    {
+      "id": 90,
+      "title": "Wuhan Union Hospital International Medical Department",
+      "url": "https://www.cn.emb-japan.go.jp/itpr_ja/hospital_wuhan_00001.html"
+    },
+    {
+      "id": 91,
+      "title": "Wuhan Asia Heart Hospital",
+      "url": "https://www.wahh.com.cn/Hospitals/Main/Location"
+    },
+    {
+      "id": 92,
+      "title": "First Affiliated Hospital of Xi’an Jiaotong University International Diagnosis and Treatment Department",
+      "url": "https://www.dyyy.xjtu.edu.cn/gzbsy/ksdh/wkxt/gjzlbjtxmz.htm"
+    },
+    {
+      "id": 93,
+      "title": "Global Doctor Xi’an Medical Center",
+      "url": "https://globaldoctors.asia/global-alliance/"
+    },
+    {
+      "id": 94,
+      "title": "OASIS International Hospital",
+      "url": "https://oasishealth.boe.com/en/"
+    },
+    {
+      "id": 95,
+      "title": "OASIS International Hospital",
+      "url": "https://oasishealth.boe.com/en/medicalCenter/insurancePayment"
+    },
+    {
+      "id": 96,
+      "title": "OASIS International Hospital",
+      "url": "https://oasishealth.boe.com/medicalCenter/gjfu"
+    },
+    {
+      "id": 97,
+      "title": "Beijing Puhua International Hospital",
+      "url": "https://puhuachina.com/en/"
+    },
+    {
+      "id": 98,
+      "title": "Beijing Puhua International Hospital",
+      "url": "https://puhuachina.com/en/component/contact/category/52-international-department-team?Itemid=101"
+    },
+    {
+      "id": 99,
+      "title": "Beijing Puhua International Hospital",
+      "url": "https://www.puhuachina.cn/"
+    },
+    {
+      "id": 100,
+      "title": "American-Sino Women’s and Children’s Hospital — Songyuan Road",
+      "url": "https://www.am-sino.com/en/medical-network/7"
+    },
+    {
+      "id": 101,
+      "title": "American-Sino Women’s and Children’s Hospital — Songyuan Road",
+      "url": "https://www.am-sino.com/en/visit-correlation/insurance-information"
+    },
+    {
+      "id": 102,
+      "title": "American-Sino Women’s and Children’s Hospital — Songyuan Road",
+      "url": "https://www.am-sino.com/about"
+    },
+    {
+      "id": 103,
+      "title": "Shanghai StarKids Children’s Hospital — New Hongqiao",
+      "url": "https://www.star-kid.com/h-nd-131.html"
+    },
+    {
+      "id": 104,
+      "title": "Shanghai StarKids Children’s Hospital — New Hongqiao",
+      "url": "https://www.star-kid.com/h-col-125.html"
+    },
+    {
+      "id": 105,
+      "title": "Shanghai StarKids Children’s Hospital — New Hongqiao",
+      "url": "https://www.star-kid.com/h-nd-139.html"
+    },
+    {
+      "id": 106,
+      "title": "Beijing United Family Hospital",
+      "url": "https://beijing.ufh.com.cn/en/"
+    },
+    {
+      "id": 107,
+      "title": "Nanjing Drum Tower Hospital",
+      "url": "https://njglyy.com/en/"
+    },
+    {
+      "id": 108,
+      "title": "Sir Run Run Shaw Hospital, Zhejiang University School of Medicine",
+      "url": "http://www.srrsh-english.com/"
+    },
+    {
+      "id": 109,
+      "title": "The First Affiliated Hospital of Soochow University",
+      "url": "https://www.chinajob.com/"
+    },
+    {
+      "id": 110,
+      "title": "Guangzhou Elizabeth Women’s Hospital — Kangwang Road",
+      "url": "https://www.gz.gov.cn/xw/zwlb/gqdt/lwq/content/post_9008682.html"
+    },
+    {
+      "id": 111,
+      "title": "Guangzhou Elizabeth Women’s Hospital — Kangwang Road",
+      "url": "https://guangzhou.china.embassy.gov.au/files/gzho/acggz_Medical_2020.pdf"
+    },
+    {
+      "id": 112,
+      "title": "EurAm International Medical Center — Guangzhou",
+      "url": "https://www.eurammedicalcenter.com/"
+    },
+    {
+      "id": 113,
+      "title": "EurAm International Medical Center — Guangzhou",
+      "url": "https://www.eurammedicalcenter.com/lxwm"
+    },
+    {
+      "id": 114,
+      "title": "Guangzhou CanAm International Medical Center — Garden Hotel",
+      "url": "https://www.canamhealthcare.com/english/company.asp"
+    },
+    {
+      "id": 115,
+      "title": "Guangzhou CanAm International Medical Center — Garden Hotel",
+      "url": "https://www.canamhealthcare.com/english/service6_1.asp"
+    },
+    {
+      "id": 116,
+      "title": "Guangzhou CanAm International Medical Center — Garden Hotel",
+      "url": "https://www.canamhealthcare.com/english/service6_2.asp"
+    },
+    {
+      "id": 117,
+      "title": "Guangzhou CanAm International Medical Center — Garden Hotel",
+      "url": "https://www.canamhealthcare.com/english/zhifu2.asp"
+    },
+    {
+      "id": 118,
+      "title": "Guangzhou Fuda Cancer Hospital — Tianhe Campus",
+      "url": "https://www.fudahospital.com/"
+    },
+    {
+      "id": 119,
+      "title": "Guangzhou Fuda Cancer Hospital — Tianhe Campus",
+      "url": "https://www.fudahospital.com/gyfd/fdjs/1.html"
+    },
+    {
+      "id": 120,
+      "title": "Guangzhou Fuda Cancer Hospital — Tianhe Campus",
+      "url": "https://www.fudahospital.com/jyzy/lxwm/"
+    },
+    {
+      "id": 121,
+      "title": "Guangzhou Fuda Cancer Hospital — Haizhu Campus",
+      "url": "https://www.fudahospital.com/gyfd/fdjs/3320.html"
+    },
+    {
+      "id": 122,
+      "title": "Modern Cancer Hospital Guangzhou — Lianquan Road",
+      "url": "https://m.22221111.com/list/route/"
+    },
+    {
+      "id": 123,
+      "title": "Modern Cancer Hospital Guangzhou — Lianquan Road",
+      "url": "https://m.22221111.com/list/22/"
+    },
+    {
+      "id": 124,
+      "title": "Modern Cancer Hospital Guangzhou — Lianquan Road",
+      "url": "https://www.gz.gov.cn/zwgk/zdly/wsjk/ggws/content/post_8739814.html"
+    },
+    {
+      "id": 125,
+      "title": "Nanfang Hospital, Southern Medical University — Main Campus",
+      "url": "https://guahao.wjw.gz.gov.cn/hospdetail.xhtml?HIS_CD=1051"
+    },
+    {
+      "id": 126,
+      "title": "Nanfang Hospital, Southern Medical University — Main Campus",
+      "url": "https://www.xhbnet.com/OutpatientGuidelines/index.aspx"
+    },
+    {
+      "id": 127,
+      "title": "Nanfang Hospital, Southern Medical University — Main Campus",
+      "url": "https://weixin.medilink-global.com.cn/web/provider/ProviderDetail?code=GD0068+++++++++&distince=&lat=23.18877000&lot=113.33103000"
+    },
+    {
+      "id": 128,
+      "title": "Southern Theater Command General Hospital — Baiyun Campus",
+      "url": "https://www.gz.gov.cn/zwgk/zdly/ylwsjg/yljgxx/content/post_7159612.html"
+    },
+    {
+      "id": 129,
+      "title": "Southern Theater Command General Hospital — Baiyun Campus",
+      "url": "https://wjw.gz.gov.cn/fwcx/zcjgcx/content/post_7159764.html"
+    },
+    {
+      "id": 130,
+      "title": "Southern Theater Command General Hospital — Baiyun Campus",
+      "url": "https://wjw.gz.gov.cn/xxgk/zfxxgkml/zfxxgkml/gzdt/content/post_9962411.html"
+    },
+    {
+      "id": 131,
+      "title": "The Third Affiliated Hospital, Sun Yat-sen University — Tianhe Campus",
+      "url": "https://www.zssy.com.cn/"
+    },
+    {
+      "id": 132,
+      "title": "The Third Affiliated Hospital, Sun Yat-sen University — Tianhe Campus",
+      "url": "https://www.zssy.com.cn/basic/11005"
+    },
+    {
+      "id": 133,
+      "title": "The Third Affiliated Hospital, Sun Yat-sen University — Tianhe Campus",
+      "url": "https://zssy.com.cn/node/15199"
+    },
+    {
+      "id": 134,
+      "title": "The Third Affiliated Hospital, Sun Yat-sen University — Tianhe Campus",
+      "url": "https://www.zssy.com.cn/article/25240"
+    },
+    {
+      "id": 135,
+      "title": "Shenzhen C-MER Dennis Lam Eye Hospital — Futian",
+      "url": "https://www.cmermedical.com/hk/service-mainland/"
+    },
+    {
+      "id": 136,
+      "title": "Shenzhen C-MER Dennis Lam Eye Hospital — Futian",
+      "url": "https://wjw.sz.gov.cn/attachment/1/1694/1694894/12690067.pdf"
+    },
+    {
+      "id": 137,
+      "title": "Shenzhen C-MER Dennis Lam Eye Hospital — Futian",
+      "url": "https://wjw.sz.gov.cn/tpxw/content/post_10752190.html"
+    },
+    {
+      "id": 138,
+      "title": "Shenzhen Second People’s Hospital — Futian Main Campus",
+      "url": "https://www.szrch.com.cn/yygk/yyjj/index.html"
+    },
+    {
+      "id": 139,
+      "title": "Shenzhen Second People’s Hospital — Futian Main Campus",
+      "url": "https://www.sz.gov.cn/hospital/ssyy/szdeyy/content/post_9370437.html"
+    },
+    {
+      "id": 140,
+      "title": "Shenzhen Second People’s Hospital — Futian Main Campus",
+      "url": "https://wjw.sz.gov.cn/xxgk/jgzn/zsjg/"
+    },
+    {
+      "id": 141,
+      "title": "Shenzhen Maternal and Child Healthcare Hospital — Hongli Campus",
+      "url": "https://www.szmch.net.cn/"
+    },
+    {
+      "id": 142,
+      "title": "Shenzhen Maternal and Child Healthcare Hospital — Hongli Campus",
+      "url": "https://www.szmch.net.cn/jyzn/jtzy/"
+    },
+    {
+      "id": 143,
+      "title": "Shenzhen Maternal and Child Healthcare Hospital — Hongli Campus",
+      "url": "https://www.szmch.net.cn/ywgk/yyjs/index.html"
+    },
+    {
+      "id": 144,
+      "title": "Shenzhen Maternal and Child Healthcare Hospital — Hongli Campus",
+      "url": "https://www.szmch.net.cn/xxgk/tszx/index.html"
+    },
+    {
+      "id": 145,
+      "title": "Shenzhen Traditional Chinese Medicine Hospital — Futian Campus",
+      "url": "https://www.szszyy.cn/"
+    },
+    {
+      "id": 146,
+      "title": "Shenzhen Traditional Chinese Medicine Hospital — Futian Campus",
+      "url": "https://www.szszyy.cn/TransportationGuide/index.aspx"
+    },
+    {
+      "id": 147,
+      "title": "Shenzhen Traditional Chinese Medicine Hospital — Futian Campus",
+      "url": "https://www.szszyy.cn/FeeInquirySystem/list.aspx"
+    },
+    {
+      "id": 148,
+      "title": "Shenzhen Traditional Chinese Medicine Hospital — Futian Campus",
+      "url": "https://www.sz.gov.cn/hospital/ssyy/szzyy/content/post_9381629.html"
+    },
+    {
+      "id": 149,
+      "title": "Shenzhen Luohu People’s Hospital — Jiabin Campus",
+      "url": "https://www.szlhyy.com.cn/"
+    },
+    {
+      "id": 150,
+      "title": "Shenzhen Luohu People’s Hospital — Jiabin Campus",
+      "url": "https://www.szlhyy.com.cn/jzzn/jtzn.htm"
+    },
+    {
+      "id": 151,
+      "title": "Shenzhen Luohu People’s Hospital — Jiabin Campus",
+      "url": "https://www.szlh.gov.cn/dzfwdt/yljk/yy/content/post_12472502.html"
+    },
+    {
+      "id": 152,
+      "title": "Shenzhen Luohu People’s Hospital — Jiabin Campus",
+      "url": "https://www.sz.gov.cn/hospital/llyy/lhrmyy/content/post_12567747.html"
+    },
+    {
+      "id": 153,
+      "title": "Raffles Hospital Shanghai — Patient Services",
+      "url": "https://www.rafflesmedicalchina.com/en/site/shanghai-hospital/patient-services"
+    },
+    {
+      "id": 154,
+      "title": "Raffles Hospital Shanghai — Direct Billing",
+      "url": "https://www.rafflesmedicalchina.com/en/site/shanghai-hospital/direct-billing"
+    },
+    {
+      "id": 155,
+      "title": "Shanghai Municipal Directory — Raffles Hospital Shanghai",
+      "url": "https://english.shanghai.gov.cn/en-Hospitals/20241011/e50f1b8b9ea3482d90b6ef261388947d.html"
+    },
+    {
+      "id": 156,
+      "title": "Raffles Medical China — Emergency Services",
+      "url": "https://www.rafflesmedicalchina.com/departmentDetail/emergency-services"
+    },
+    {
+      "id": 157,
+      "title": "DeltaHealth Hospital Shanghai — Official English Site",
+      "url": "https://www.deltahealth.com.cn/en/"
+    },
+    {
+      "id": 158,
+      "title": "DeltaHealth Hospital Shanghai — About the Hospital",
+      "url": "https://www.deltahealth.com.cn/en/pages/single/about"
+    },
+    {
+      "id": 159,
+      "title": "Shanghai DeltaHealth Hospital — Commercial Insurance and Direct Billing",
+      "url": "https://www.deltahealth.com.cn/pages/single/index?id=2"
+    },
+    {
+      "id": 160,
+      "title": "Shanghai Municipal Directory — Shanghai DeltaHealth Hospital",
+      "url": "https://english.shanghai.gov.cn/en-Hospitals/20241011/3b242576403b4a0cb948ca32ae2555e3.html"
+    },
+    {
+      "id": 161,
+      "title": "Parkway Shanghai Hospital — Official Campus Page",
+      "url": "https://www.parkwayshanghai.com/en/explore-hospital-and-clinics-1"
+    },
+    {
+      "id": 162,
+      "title": "Parkway Shanghai — International Patient Services",
+      "url": "https://www.parkwayshanghai.com/en/international"
+    },
+    {
+      "id": 163,
+      "title": "Parkway Shanghai — Insurance and Direct Billing",
+      "url": "https://www.parkwayshanghai.com/en/insurance-direct-pay"
+    },
+    {
+      "id": 164,
+      "title": "Shanghai Municipal Directory — Parkway Shanghai Hospital",
+      "url": "https://english.shanghai.gov.cn/en-Hospitals/20241011/00d346b5d9cf44cc9100a05c6d18d1e9.html"
+    },
+    {
+      "id": 165,
+      "title": "Parkway Shanghai — Contact and Locations",
+      "url": "https://www.parkwayshanghai.com/en/contact-us"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Hospital Finder for Foreigners in China | Adapt to China</title>
+<meta content="Search a curated list of hospitals with international-patient services in major Chinese cities, then choose Apple Maps, AMap Global, or Baidu Maps." name="description"/>
+<link href="https://adapttochina.pages.dev/healthcare.html" rel="canonical"/>
+<meta content="Adapt to China" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="Hospital Finder for Foreigners in China" property="og:title"/>
+<meta content="Search selected hospitals by city, service, and practical international-patient features." property="og:description"/>
+<meta content="https://adapttochina.pages.dev/healthcare.html" property="og:url"/>
+<meta content="https://adapttochina.pages.dev/hero_lujiazui.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="map-links.js"></script>
+<script defer="" src="healthcare.js"></script>
+</head>
+<body class="healthcare-hub hc-finder-only-page">
+<nav aria-label="Primary">
+<div class="nav-in">
+<a class="logo" href="index.html">ADAPT<span>·TO·</span>CHINA</a>
+<div class="nav-links" id="nav-links"><a href="index.html#explore">Plan Your Move</a><a href="guides.html">Daily Guides</a><a href="index.html#finders">Free Tools</a><a href="about.html">About &amp; Community</a></div>
+<div class="nav-right"><a class="nav-cta" href="answers.html">Get local help →</a>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Open menu" class="nav-burger" type="button">☰</button>
+</div>
+</div>
+</nav>
+<main>
+<header class="hc-compact-hero">
+<div class="wrap hc-compact-hero-grid">
+<div>
+<div class="eyebrow">Healthcare · curated directory</div>
+<h1>Find hospitals in China.</h1>
+<p class="lead">Choose a city and care type, then check international or English-language services.</p>
+</div>
+<div aria-label="Healthcare resources" class="hc-hero-links">
+<a class="btn" href="healthcare-guide.html">How a hospital visit works</a>
+</div>
+</div>
+</header>
+<section aria-labelledby="finder-title" class="hc-finder-section hc-finder-section--focused" id="finder">
+<div class="wrap">
+<div class="hc-finder-intro">
+<div>
+<span class="plate teal"><span class="tag">FINDER</span><span class="en">61 selected facilities · 10 cities</span></span>
+<h2 id="finder-title">Hospital Finder</h2>
+<p>Search 61 selected facilities, then open the correct campus in Apple Maps, AMap Global, or Baidu Maps. This is not a complete list or quality ranking.</p>
+</div>
+<div class="hc-compact-safety-note">
+<strong>Need an ambulance?</strong> Call <strong>120</strong> in mainland China.
+        </div>
+</div>
+<div class="hc-data-alert" hidden="" id="hc-data-alert" role="alert"></div>
+<div class="hc-finder-shell">
+<div aria-label="Search the hospital directory" class="hc-quick-search">
+<div class="hc-search-input-wrap">
+<span aria-hidden="true">⌕</span>
+<label class="sr-only" for="hc-search">Search hospitals</label>
+<input autocomplete="off" id="hc-search" placeholder="Search hospital, city, specialty, or service" type="search"/>
+<button aria-label="Clear search" class="hc-clear-search" hidden="" id="hc-clear-search" type="button">Clear</button>
+</div>
+<div class="hc-quick-select">
+<label class="sr-only" for="hc-quick-city">City</label>
+<select data-filter-key="city" id="hc-quick-city"><option value="">All cities</option></select>
+</div>
+<div class="hc-quick-select">
+<label class="sr-only" for="hc-quick-care">Care type</label>
+<select data-filter-key="care" id="hc-quick-care">
+<option value="">All care types</option>
+<option value="general">General care</option>
+<option value="emergency">Emergency department</option>
+<option value="dental">Dental</option>
+<option value="mental-health">Mental health</option>
+<option value="womens-health">Women’s health</option>
+<option value="children">Children’s care</option>
+<option value="health-check">Health check</option>
+<option value="specialist">Surgery &amp; specialist care</option>
+</select>
+</div>
+<button class="btn primary hc-search-button" id="hc-run-search" type="button">Search</button>
+<button aria-controls="hc-filter-dialog" aria-haspopup="dialog" class="btn hc-filter-trigger" id="hc-open-filters" type="button">More filters <span aria-hidden="true" id="hc-active-filter-count"></span></button>
+</div>
+<div class="hc-finder-layout hc-finder-layout--list">
+<aside aria-label="Hospital filters" class="hc-filter-sidebar">
+<div class="hc-filter-header">
+<h3>Filters</h3>
+<button class="hc-reset-link" data-reset-filters="" type="button">Reset</button>
+</div>
+<div data-filter-controls="desktop"></div>
+</aside>
+<div class="hc-results-column">
+<div class="hc-results-meta">
+<p aria-live="polite" class="hc-result-count" id="hc-result-count" role="status">Loading facilities…</p>
+<p class="hc-order-note">Alphabetical order. No medical-quality ranking.</p>
+</div>
+<div aria-busy="true" aria-live="polite" class="hc-results hc-results--list" id="hc-results">
+<div class="hc-loading-state"><span aria-hidden="true" class="hc-spinner"></span><p>Loading the directory…</p></div>
+</div>
+<div class="hc-show-more-wrap"><button class="btn" hidden="" id="hc-show-more" type="button">Show more facilities</button></div>
+</div>
+</div>
+</div>
+<div class="hc-records-note"><strong>Keep every visit document.</strong><span>Save receipts, invoices, records, reports, prescriptions, and discharge notes for follow-up or reimbursement.</span></div><p class="hc-directory-disclaimer">Practical information only, not medical advice or a facility recommendation. Confirm details with the hospital.</p>
+</div>
+</section>
+<dialog aria-labelledby="hc-filter-dialog-title" class="hc-filter-dialog" id="hc-filter-dialog">
+<div class="hc-filter-dialog-shell">
+<div class="hc-filter-dialog-head">
+<h2 id="hc-filter-dialog-title">More filters</h2>
+<button aria-label="Close filters" class="hc-icon-button" id="hc-close-filters" type="button">×</button>
+</div>
+<div class="hc-filter-dialog-body" data-filter-controls="mobile"></div>
+<div class="hc-filter-dialog-actions">
+<button class="btn" data-reset-filters="" type="button">Reset</button>
+<button class="btn primary" id="hc-show-results" type="button">Show facilities</button>
+</div>
+</div>
+</dialog>
+<dialog aria-labelledby="hc-campus-dialog-title" class="hc-campus-dialog" id="hc-campus-dialog">
+<div class="hc-campus-dialog-shell">
+<div class="hc-campus-dialog-head">
+<div><span class="eyebrow">Map navigation</span><h2 id="hc-campus-dialog-title">Choose a campus</h2></div>
+<button aria-label="Close campus selector" class="hc-icon-button" id="hc-close-campus-dialog" type="button">×</button>
+</div>
+<p class="hc-campus-dialog-note" id="hc-campus-dialog-note"></p>
+<div class="hc-campus-warning" hidden="" id="hc-campus-warning" role="note"></div>
+<div class="hc-campus-list" id="hc-campus-list"></div>
+</div>
+</dialog>
+<section aria-labelledby="assistance-title" class="hc-support-section" id="support">
+<div class="wrap">
+<div aria-disabled="true" class="hc-paid-support-card is-unavailable">
+<div class="hc-paid-support-copy">
+<span class="plate"><span class="tag">HOSPITAL ACCOMPANIMENT</span><span class="en">COMING SOON · NOT BOOKABLE</span></span>
+<h2 id="assistance-title">Hospital accompaniment is not available yet.</h2>
+<p>Booking and payment are closed while I assess safety and privacy.</p>
+<p class="hc-support-boundary"><strong>Do not send medical, identity, or insurance documents.</strong> For emergencies, call 120.</p>
+</div>
+<div class="hc-paid-support-actions">
+<button class="btn" disabled="" type="button">Not bookable yet</button>
+
+<span class="hc-unavailable-note">No booking or payment is being accepted.</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap foot-grid">
+<div>© 2026 · Adapt to China · Built in Shanghai by Martin<br/>Practical information, not medical advice.</div>
+<div class="foot-links">
+<a href="index.html">Home</a>
+<a href="guides.html">Daily life guides</a>
+<a href="rent.html">Renting</a>
+<a href="about.html">About</a>
+<a href="healthcare-guide.html">Healthcare process</a>
+<a href="answers.html">Ask me</a>
+<a href="special-food.html">Special food</a>
+</div>
+</div>
+</footer>
+<script data-cf-beacon='{"token":"9a216b8bfa1d40169670f0f754b2b6bf"}' src="https://static.cloudflareinsights.com/beacon.min.js" type="module"></script>
+</body>
+</html>

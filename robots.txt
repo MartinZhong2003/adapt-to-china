@@ -1,0 +1,8 @@
+# Adapt to China - all crawlers welcome, including AI crawlers
+# (GPTBot, ClaudeBot, PerplexityBot etc.): being cited with a link
+# is a discovery channel for this site.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://adapttochina.pages.dev/sitemap.xml
