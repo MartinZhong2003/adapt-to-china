@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Support Planner | Adapt to China</title>
+<meta content="Tell Adapt to China what you are trying to get done. Answer three short steps so your situation can be organized into a clearer next step." name="description"/>
+<link href="https://adapttochina.pages.dev/tell-me-your-needs.html" rel="canonical"/>
+<meta content="Adapt to China" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="Support Planner | Adapt to China" property="og:title"/>
+<meta content="Describe what you are trying to get done in China in three short steps and get a clearer next step." property="og:description"/>
+<meta content="https://adapttochina.pages.dev/tell-me-your-needs.html" property="og:url"/>
+<meta content="summary" name="twitter:card"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body class="needs-page">
+<nav aria-label="Primary">
+<div class="nav-in">
+<a class="logo" href="index.html">ADAPT<span>·TO·</span>CHINA</a>
+<div class="nav-links" id="nav-links"><a href="index.html#explore">Plan Your Move</a><a href="guides.html">Daily Guides</a><a href="index.html#finders">Free Tools</a><a href="about.html">About &amp; Community</a></div>
+<div class="nav-right"><a class="nav-cta" href="answers.html">Get local help →</a>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Open menu" class="nav-burger" type="button">☰</button>
+</div>
+</div>
+</nav>
+
+<main>
+<section class="needs-form-section" aria-labelledby="needs-form-title">
+<div class="wrap needs-planner-shell">
+<div class="needs-planner-head">
+<span class="community-kicker">3 SHORT STEPS</span>
+<h2 id="needs-form-title">Start with what you are trying to do.</h2>
+<p>No account is needed. The first step is intentionally open-ended because real-life problems rarely fit a neat category.</p>
+</div>
+<form class="needs-form-card needs-wizard" id="needsForm" novalidate>
+<div class="needs-progress" aria-label="Planner progress">
+<div class="needs-progress-item is-active" data-progress="1"><span>01</span><strong>Your situation</strong></div>
+<div class="needs-progress-line" aria-hidden="true"></div>
+<div class="needs-progress-item" data-progress="2"><span>02</span><strong>Place &amp; timing</strong></div>
+<div class="needs-progress-line" aria-hidden="true"></div>
+<div class="needs-progress-item" data-progress="3"><span>03</span><strong>Where to reply</strong></div>
+</div>
+
+<section class="needs-step is-active" data-step="1" aria-labelledby="needs-step-1-title">
+<span class="needs-step-kicker">STEP 1 OF 3</span>
+<h3 id="needs-step-1-title">What are you trying to get done?</h3>
+<p class="needs-step-copy">Tell me the situation in plain English. Include what has already happened and what is making it difficult.</p>
+<label for="needs-details">Your situation
+<textarea id="needs-details" name="details" rows="8" minlength="20" maxlength="1800" placeholder="For example: I just arrived in Shanghai and need a short-term room near ECNU under RMB 3,500. I do not speak Chinese and I am not sure which rental platforms to trust." required></textarea>
+<span class="needs-field-hint">Please leave out passport numbers, passwords, bank details, and full medical records.</span>
+</label>
+<div class="needs-example-pills" aria-label="Example topics"><span>Housing</span><span>Healthcare</span><span>Payments</span><span>Chinese communication</span><span>Local services</span></div>
+<div class="needs-step-actions needs-step-actions-right">
+<button class="btn teal needs-next" type="button" data-next="2">Continue →</button>
+</div>
+</section>
+
+<section class="needs-step" data-step="2" aria-labelledby="needs-step-2-title" hidden>
+<span class="needs-step-kicker">STEP 2 OF 3</span>
+<h3 id="needs-step-2-title">Where and when?</h3>
+<p class="needs-step-copy">A little context helps separate general information from something that needs a local, time-sensitive answer.</p>
+<div class="needs-field-grid">
+<label for="needs-city">Current city or destination
+<input id="needs-city" name="city" type="text" maxlength="80" placeholder="Shanghai" required/>
+</label>
+<label for="needs-timing">When do you need this?
+<select id="needs-timing" name="timing" required>
+<option value="">Choose one</option>
+<option value="Today">Today</option>
+<option value="This week">This week</option>
+<option value="This month">This month</option>
+<option value="Later">Later</option>
+<option value="Not sure">Not sure</option>
+</select>
+</label>
+</div>
+<label for="needs-support">What would be most useful if it exists?
+<select id="needs-support" name="support_preference" required>
+<option value="">Choose one</option>
+<option value="Information or explanation">A clear explanation or guide</option>
+<option value="Recommendations or options">Recommendations or options to compare</option>
+<option value="Help contacting or coordinating locally">Help contacting or coordinating locally</option>
+<option value="Not sure">I am not sure yet</option>
+</select>
+<span class="needs-field-hint">It is fine to choose “I am not sure yet.” The planner is meant for that.</span>
+</label>
+<div class="needs-step-actions">
+<button class="needs-back" type="button" data-back="1">← Back</button>
+<button class="btn teal needs-next" type="button" data-next="3">Continue →</button>
+</div>
+</section>
+
+<section class="needs-step" data-step="3" aria-labelledby="needs-step-3-title" hidden>
+<span class="needs-step-kicker">STEP 3 OF 3</span>
+<h3 id="needs-step-3-title">Where should I send the next step?</h3>
+<p class="needs-step-copy">Add your contact details only at the end, after you have described the situation. Your email is used to respond to this request.</p>
+<div class="needs-field-grid">
+<label for="needs-name">Name
+<input id="needs-name" name="name" type="text" autocomplete="name" maxlength="80" placeholder="Alex" required/>
+</label>
+<label for="needs-email">Email
+<input id="needs-email" name="email" type="email" autocomplete="email" maxlength="160" placeholder="alex@example.com" required/>
+</label>
+</div>
+<label class="needs-consent" for="needs-consent">
+<input id="needs-consent" name="consent" type="checkbox" required/>
+<span>I agree that the information I submit can be used to understand and respond to this request. I understand that requests may be automatically categorized to help organize them.</span>
+</label>
+<label class="needs-honeypot" aria-hidden="true" for="needs-company">Company website
+<input id="needs-company" name="company_website" type="text" tabindex="-1" autocomplete="off"/>
+</label>
+<div class="needs-step-actions">
+<button class="needs-back" type="button" data-back="2">← Back</button>
+<button class="btn teal needs-submit" id="needsSubmit" type="submit">Get my next step →</button>
+</div>
+<p class="needs-form-status" id="needsStatus" role="status" aria-live="polite"></p>
+<p class="needs-emergency-note">This form is not monitored continuously and should not be used for emergencies.</p>
+</section>
+</form>
+
+<section class="needs-plan-result" id="needsPlanResult" aria-live="polite" hidden>
+  <div class="needs-result-topline">
+    <span class="community-kicker">YOUR PLAN</span>
+    <span class="needs-result-status" id="needsResultStatus"></span>
+  </div>
+  <h2 id="needsResultTitle">A clearer next step.</h2>
+  <p class="needs-result-summary" id="needsResultSummary"></p>
+
+  <div class="needs-result-block">
+    <span class="needs-result-label">YOUR NEXT STEPS</span>
+    <ol class="needs-result-steps" id="needsResultSteps"></ol>
+  </div>
+
+  <div class="needs-result-grid">
+    <article class="needs-result-card" id="needsGuideCard" hidden>
+      <span class="needs-result-label">START FREE</span>
+      <h3 id="needsGuideTitle"></h3>
+      <p id="needsGuideCopy"></p>
+      <a class="needs-result-link" id="needsGuideLink" href="#">Open the guide →</a>
+    </article>
+    <article class="needs-result-card needs-result-card-support" id="needsSupportCard" hidden>
+      <span class="needs-result-label">OPTIONAL LOCAL HELP</span>
+      <div class="needs-support-heading"><h3 id="needsSupportTitle"></h3><strong id="needsSupportPrice"></strong></div>
+      <p id="needsSupportCopy"></p>
+      <div class="needs-result-actions">
+        <a class="needs-result-link" id="needsSupportLink" href="#">See what is included →</a>
+        <button class="needs-copy-button" id="needsCopyRequest" type="button">Copy a message for Martin</button>
+      </div>
+    </article>
+    <article class="needs-result-card" id="needsSelfServeCard" hidden>
+      <span class="needs-result-label">GOOD NEWS</span>
+      <h3>You may not need paid support.</h3>
+      <p>The planner did not identify a clear need for local coordination. Start with the steps above and the free resource if one is shown.</p>
+    </article>
+  </div>
+
+  <div class="needs-result-footer">
+    <p>This plan is a practical starting point, not professional medical, legal, visa, tax, or financial advice.</p>
+    <button class="needs-start-over" id="needsStartOver" type="button">← Plan another situation</button>
+  </div>
+</section>
+</div>
+</section>
+<section class="needs-routing-section" aria-labelledby="needs-routing-title">
+<div class="wrap">
+<div class="needs-routing-head">
+<span class="community-kicker">ONE REQUEST, DIFFERENT NEXT STEPS</span>
+<h2 id="needs-routing-title">Not every request needs the same kind of help.</h2>
+<p>The goal is to make the next step clearer without forcing you to understand the whole site first.</p>
+</div>
+<div class="needs-routing-grid needs-routing-grid-three">
+<article><span>01</span><h3>Free guide or tool</h3><p>If the answer already exists on Adapt to China, I can point you to the most relevant page or finder.</p></article>
+<article><span>02</span><h3>Recommendations</h3><p>If you need options rather than a general explanation, the request can be organized around what you need to compare.</p></article>
+<article><span>03</span><h3>Local support</h3><p>If the task needs research, Chinese communication, or coordination, I can confirm whether personal support is a fit.</p></article>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap foot-grid">
+<div>© 2026 · Adapt to China · Built in Shanghai by Martin<br/>General orientation, not medical advice.</div>
+<div class="foot-links">
+<a href="guides.html">Daily life guides</a>
+<a href="rent.html">Renting</a>
+<a href="healthcare.html">Hospital Finder</a>
+<a href="special-food.html">Food Finders</a>
+<a href="tell-me-your-needs.html?ref=needs-page-footer">Tell me your needs</a>
+<a href="answers.html">Personal support</a>
+<a href="about.html">Community &amp; About</a>
+<a href="guides.html#heads-up-board">Learn from others</a>
+<span class="foot-120">EMERGENCY → 120</span>
+</div>
+</div>
+</footer>
+<script src="needs-config.js"></script>
+<script src="needs.js"></script>
+<!-- Cloudflare Web Analytics --><script data-cf-beacon='{"token":"9a216b8bfa1d40169670f0f754b2b6bf"}' src="https://static.cloudflareinsights.com/beacon.min.js" type="module"></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

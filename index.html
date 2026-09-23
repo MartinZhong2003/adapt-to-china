@@ -4,8 +4,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Moving to China? Guides &amp; Local Help | Adapt to China</title>
-<meta content="Moving to China in the next 90 days? Get clear, practical next steps for your first 72 hours, payments, transport, renting, healthcare, and local support." name="description"/>
+<title>Adapt to China | Practical Help for Newcomers</title>
+<meta content="Adapt to China helps newcomers navigate housing, payments, healthcare and everyday life with free guides, practical tools and local support when needed." name="description"/>
 <meta content="Dcog0CmUB71nBTIfC8kpaHVUBtP6CbXGbQu91iWZp0s" name="google-site-verification"/>
 <!-- ============================================================
   Deploy together:
@@ -13,24 +13,24 @@
     answers.html · personal-support-details.html · moving-to-shanghai.html
     first-72-hours.html · about.html · guides.html#heads-up-board
     rent.html · special-food.html · halal-food.html · vegetarian-food.html
-    life-search-home-cleaning.html
+    life-search-home-cleaning.html · tell-me-your-needs.html
+    needs.js · needs-config.js
     404.html · style.css · map-links.js · healthcare.js · halal-food.js
     vegetarian-food.js · hospital-detail.js · vegetarian-detail.js
     data/ · healthcare/ · halal-food/ · vegetarian-food/
     hero_lujiazui.jpg · martin.jpg
-  THE HOME PAGE IS NOW A SEARCH WINDOW. The search index lives in
-  the SEARCH_DATA array at the bottom of this file. When you add a
-  page or section, add an entry there too (title, desc, url, keywords).
+  The homepage hero now routes newcomers into the Support Planner.
+  SEARCH_DATA remains below for future/site-search reuse.
 ============================================================ -->
 <link href="https://adapttochina.pages.dev/" rel="canonical"/>
 <meta content="Adapt to China" property="og:site_name"/>
 <meta content="website" property="og:type"/>
-<meta content="Moving to China? Start with a clear next step" property="og:title"/>
-<meta content="Free practical setup guides, verified places, and local help for people moving to or newly arrived in China." property="og:description"/>
+<meta content="What's your life problem in China? | Adapt to China" property="og:title"/>
+<meta content="Tell Adapt to China what you are trying to solve, then get a clearer next step or browse practical guides and local support." property="og:description"/>
 <meta content="https://adapttochina.pages.dev/" property="og:url"/>
 <meta content="https://adapttochina.pages.dev/hero_lujiazui.jpg" property="og:image"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Adapt to China","url":"https://adapttochina.pages.dev/","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://adapttochina.pages.dev/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Adapt to China","url":"https://adapttochina.pages.dev/"}</script>
 <link href="style.css" rel="stylesheet"/>
 </head>
 <body class="home home-v58">
@@ -43,26 +43,16 @@
 </div>
 </div>
 </nav>
-<!-- ================= HERO: THE SEARCH WINDOW ================= -->
+<!-- ================= HERO: NEEDS-FIRST ENTRY ================= -->
 <header class="hero" id="top">
 <!-- DESKTOP hero -->
 <div class="wrap hero-desktop">
 <div class="hero-in">
 <div class="eyebrow">NEW TO CHINA?</div>
-<h1 class="hero-title-serif">What do you need to figure out today?</h1>
-<p class="hero-sub">Search free guides and finders—or ask a local when the answer depends on your situation.</p>
-<div class="site-search">
-<div class="ss-box">
-<span class="ss-ico">⌕</span>
-<input aria-label="Search the site" autocomplete="off" placeholder="Search payments, hospitals, renting…" type="search"/>
-</div>
-<div class="ss-results" role="listbox"></div>
-<div aria-label="Popular searches" class="ss-chips" role="group">
-<button type="button">Moving soon</button>
-<button type="button">Payments</button>
-<button type="button">Renting</button>
-<button type="button">Hospitals</button>
-</div>
+<h1 class="hero-title-serif">What's your life problem in China?</h1>
+<div class="hero-needs-actions">
+<a class="hero-needs-cta" href="tell-me-your-needs.html?ref=homepage-hero">Tell me what you need <span aria-hidden="true">→</span></a>
+<a class="hero-browse-link" href="#explore">Or browse free guides</a>
 </div>
 </div>
 </div>
@@ -70,20 +60,10 @@
 <div class="wrap hero-mobile">
 <div class="hero-in">
 <div class="eyebrow">NEW TO CHINA?</div>
-<h1>What do you need to figure out today?</h1>
-<p class="hero-sub">Search free guides and finders—or ask a local for help.</p>
-<div class="site-search">
-<div class="ss-box">
-<span class="ss-ico">⌕</span>
-<input aria-label="Search the site" autocomplete="off" placeholder="Search payments, hospitals, renting…" type="search"/>
-</div>
-<div class="ss-results" role="listbox"></div>
-<div aria-label="Popular searches" class="ss-chips" role="group">
-<button type="button">Moving soon</button>
-<button type="button">Payments</button>
-<button type="button">Renting</button>
-<button type="button">Hospitals</button>
-</div>
+<h1>What's your life problem in China?</h1>
+<div class="hero-needs-actions">
+<a class="hero-needs-cta" href="tell-me-your-needs.html?ref=homepage-hero">Tell me what you need <span aria-hidden="true">→</span></a>
+<a class="hero-browse-link" href="#explore">Or browse free guides</a>
 </div>
 </div>
 <figure class="hero-photo">
@@ -141,6 +121,22 @@
 <a href="rent.html"><span>HOUSING</span><h3>Rent with fewer surprises</h3><p>Costs, viewings, contracts, and deposits.</p></a>
 <a href="healthcare.html"><span>HEALTHCARE</span><h3>Find a hospital route</h3><p>Search facilities and confirm the campus.</p></a>
 <a href="special-food.html"><span>FOOD</span><h3>Find suitable food</h3><p>Search halal, vegetarian, and vegan places.</p></a>
+</div>
+</div>
+</section>
+<section aria-labelledby="needs-home-title" class="needs-home" id="tell-me-your-needs">
+<div class="wrap">
+<div class="needs-home-card">
+<div class="needs-home-copy">
+<span class="community-kicker">TELL ME YOUR NEEDS</span>
+<h2 id="needs-home-title">Not sure which page fits your situation?</h2>
+<p>Tell me what you are trying to do in China. You can describe the situation in your own words. Your request can be organized by need, timing, and urgency so the next step is easier to identify.</p>
+<div class="needs-home-examples"><span>Housing</span><span>Healthcare</span><span>Payments</span><span>Chinese communication</span><span>Local services</span></div>
+</div>
+<div class="needs-home-action">
+<a class="btn teal" href="tell-me-your-needs.html?ref=website-home">Tell me what you need →</a>
+<small>Free to submit. If paid support may help, scope and price are confirmed first.</small>
+</div>
 </div>
 </div>
 </section>
@@ -227,7 +223,7 @@
 <span class="community-channel-no">02 · WECHAT COMMUNITY HUB</span>
 <h3>Ask, share, and help each other</h3>
 <p>Ask questions and share what worked for you.</p>
-<p class="community-expiry">Current QR valid until 28 September 2026. If it expires, please check back for an updated QR or <a href="mailto:adapttochina@163.com?subject=Community%20group%20-%20Adapt%20to%20China">email Martin</a>.</p><a class="community-qr-link" href="assets/community/wechat-community-qr.png" rel="noopener" target="_blank">Open QR full size →</a>
+<p class="community-expiry">Current QR valid until 28 September 2026. If it expires, add <strong>martinzhong26</strong> and say “community group”.</p><a class="community-qr-link" href="assets/community/wechat-community-qr.png" rel="noopener" target="_blank">Open QR full size →</a>
 </div>
 </article>
 <article class="community-channel-card channel-instagram">
@@ -313,6 +309,7 @@
 <a href="rent.html">Renting</a>
 <a href="healthcare.html">Hospital Finder</a>
 <a href="special-food.html">Food Finders</a>
+<a href="tell-me-your-needs.html?ref=footer">Tell me your needs</a>
 <a href="answers.html">Personal support</a>
 <a href="about.html">Community &amp; About</a>
 <a href="guides.html#heads-up-board">Learn from others</a>
@@ -326,6 +323,7 @@
      One entry per thing people look for. To add: {t:title, w:where,
      d:one-liner, u:url, k:'space separated keywords and synonyms'} */
   var SEARCH_DATA = [
+    {t:'Tell me what you need help with', w:'Needs intake', d:'Describe the situation in your own words and use it to find a clearer next step.', u:'tell-me-your-needs.html?ref=site-search', k:'tell needs request stuck help situation support question problem route recommendation local task advice'},
     {t:'Moving to Shanghai in the next 90 days', w:'Moving path', d:'An ordered path from pre-arrival decisions through your first month in Shanghai.', u:'moving-to-shanghai.html', k:'move moving relocate relocation shanghai work employee family prepare plan 90 days before arrive newcomer'},
     {t:'Your first 72 hours in China', w:'Arrival checklist', d:'Prioritize registration, your host, connectivity, and a payment fallback.', u:'first-72-hours.html', k:'first 72 hours arrive arrival landed checklist registration phone sim payment fallback sponsor host'},
     {t:'Need a local to help with one task', w:'Human help', d:'Choose Task-Based Support, House Finding Support, Shanghai Pet Support, 7-day Q&A, or one Chinese phone call.', u:'answers.html', k:'local help human task service house finding rent rental search pet dog walk dog walking cat feeding pet sitting feed english xuhui xujiahui shanghai call chinese provider contact solve booking support'},
@@ -482,6 +480,16 @@
       if (intentNote) intentNote.textContent = intentSelect.value ? 'Ready—continue to the most relevant page.' : 'Free guides and finders stay open to everyone.';
     });
   }
+
+  /* copy WeChat ID */
+  var cb = document.getElementById('copy-wechat');
+  if (cb) cb.addEventListener('click', function(){
+    var done = function(){ cb.textContent = 'Copied \u2713  martinzhong26'; };
+    var fail = function(){ cb.textContent = 'WeChat ID: martinzhong26'; };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText('martinzhong26').then(done, fail);
+    } else { fail(); }
+  });
 
   /* burger */
   var burger = document.querySelector('.nav-burger');

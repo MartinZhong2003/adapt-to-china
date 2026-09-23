@@ -524,7 +524,7 @@
 <div class="money-grid" style="margin-top:36px;">
 <div class="money-item">
 <h3>01 · Send the situation</h3>
-<p><a href="mailto:adapttochina@163.com?subject=Personal%20Support%20-%20Adapt%20to%20China">Email Martin</a> and say what you need done, your city, and your deadline.</p>
+<p>Add <strong>martinzhong26</strong> on WeChat or <a href="mailto:adapttochina@163.com?subject=Personal%20Support%20-%20Adapt%20to%20China">email Martin</a>. Say what you need done, your city, and your deadline.</p>
 </div>
 <div class="money-item">
 <h3>02 · I confirm the service and milestone</h3>
@@ -553,15 +553,15 @@
 <div>
 <h3 style="margin-bottom:8px;">Tell me what you need before you pay</h3>
 <ol class="hiw-steps">
-<li><a href="mailto:adapttochina@163.com?subject=Personal%20Support%20-%20Adapt%20to%20China">Email Martin</a> and say you found the website.</li>
+<li>Add <strong>martinzhong26</strong> on WeChat and say you found the website.</li>
 <li>For a one-off task, send the city, exact service you need, must-have criteria, preferred date/time, and deadline. For house finding, download and complete the <a download href="downloads/Adapt_to_China_House_Finding_Intake_Questionnaire.docx">12–15 minute intake questionnaire</a> so the search brief includes location, budget, timeline, home type, facilities, health-related requirements, and priorities. For Pet Support, send your Shanghai location, preferred date/time, pet type, dog size/breed if relevant, temperament, and whether you need walking, feeding, or both. For 7-Day Q&amp;A, send two or three sample questions.</li>
 <li>If the request fits, choose a Light Task (US$20), Standard Task (US$50), Complex Task (US$80), House Finding Support (US$150 total: US$75 to start + US$75 after delivery), Pet Support in Shanghai (US$20 / RMB 135 per 60-minute visit), 7-Day Q&amp;A Support (US$30), or one Chinese phone call (US$10).</li>
 </ol>
 <p class="refund-line">The free website and newcomers community remain available whether or not you buy support.</p>
 </div>
 <div class="wp-id">
-<span class="snippet" style="font-weight:700;font-size:1.05rem;">Prefer email for direct support</span>
-<a class="btn primary" href="mailto:adapttochina@163.com?subject=Personal%20Support%20-%20Adapt%20to%20China" style="margin-top:12px;width:100%;box-sizing:border-box;text-align:center;">Email Martin →</a>
+<span class="snippet" style="font-weight:700;font-size:1.05rem;">WeChat ID: martinzhong26</span>
+<button class="btn primary" id="copy-wechat" style="margin-top:12px;width:100%;" type="button">Copy the ID &amp; add me →</button>
 </div>
 </div>
 </div>
@@ -584,6 +584,14 @@
 </footer>
 <script>
 (function(){
+  var b = document.getElementById('copy-wechat');
+  if (b) b.addEventListener('click', function(){
+    var done = function(){ b.textContent = 'Copied \u2713  martinzhong26'; };
+    var fail = function(){ b.textContent = 'WeChat ID: martinzhong26'; };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText('martinzhong26').then(done, fail);
+    } else { fail(); }
+  });
   var burger = document.querySelector('.nav-burger');
   var links = document.getElementById('nav-links');
   if (burger && links) {
